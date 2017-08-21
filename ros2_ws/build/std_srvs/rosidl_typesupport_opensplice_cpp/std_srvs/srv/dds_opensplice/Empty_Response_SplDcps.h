@@ -1,0 +1,28 @@
+#ifndef EMPTY_RESPONSE_SPLTYPES_H
+#define EMPTY_RESPONSE_SPLTYPES_H
+
+#include "ccpp_Empty_Response_.h"
+
+#include <c_base.h>
+#include <c_misc.h>
+#include <c_sync.h>
+#include <c_collection.h>
+#include <c_field.h>
+
+extern c_metaObject __Empty_Response__std_srvs__load (c_base base);
+
+extern c_metaObject __Empty_Response__std_srvs_srv__load (c_base base);
+
+extern c_metaObject __Empty_Response__std_srvs_srv_dds___load (c_base base);
+
+extern c_metaObject __std_srvs_srv_dds__Empty_Response___load (c_base base);
+extern const char * __std_srvs_srv_dds__Empty_Response___keys (void);
+extern const char * __std_srvs_srv_dds__Empty_Response___name (void);
+struct _std_srvs_srv_dds__Empty_Response_ ;
+extern  c_bool __std_srvs_srv_dds__Empty_Response___copyIn(c_base base, struct std_srvs::srv::dds_::Empty_Response_ *from, struct _std_srvs_srv_dds__Empty_Response_ *to);
+extern  void __std_srvs_srv_dds__Empty_Response___copyOut(void *_from, void *_to);
+struct _std_srvs_srv_dds__Empty_Response_ {
+    c_bool dummy;
+};
+
+#endif

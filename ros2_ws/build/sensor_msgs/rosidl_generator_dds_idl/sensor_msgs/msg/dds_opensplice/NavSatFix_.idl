@@ -1,0 +1,51 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__NavSatFix__idl__
+#define __sensor_msgs__msg__NavSatFix__idl__
+
+#include "sensor_msgs/msg/dds_opensplice/NavSatStatus_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+  const octet NavSatFix__COVARIANCE_TYPE_UNKNOWN =
+    0;
+  const octet NavSatFix__COVARIANCE_TYPE_APPROXIMATED =
+    1;
+  const octet NavSatFix__COVARIANCE_TYPE_DIAGONAL_KNOWN =
+    2;
+  const octet NavSatFix__COVARIANCE_TYPE_KNOWN =
+    3;
+
+
+typedef double sensor_msgs__NavSatFix__double_array_9[9];
+
+struct NavSatFix_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  sensor_msgs::msg::dds_::NavSatStatus_ status_;
+  double latitude_;
+  double longitude_;
+  double altitude_;
+sensor_msgs__NavSatFix__double_array_9 position_covariance_;
+  octet position_covariance_type_;
+
+};  // struct NavSatFix_
+
+#pragma keylist NavSatFix_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__NavSatFix__idl__

@@ -1,0 +1,7 @@
+/home/erle/ros2_ws/build/geometry_msgs/CMakeFiles/geometry_msgs.dir
+/home/erle/ros2_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__c.dir
+/home/erle/ros2_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__cpp.dir
+/home/erle/ros2_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__dds_opensplice_idl.dir
+/home/erle/ros2_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir
+/home/erle/ros2_ws/build/geometry_msgs/CMakeFiles/geometry_msgs__rosidl_typesupport_opensplice_cpp.dir
+/home/erle/ros2_ws/build/geometry_msgs/CMakeFiles/uninstall.dir

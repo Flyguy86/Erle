@@ -1,0 +1,16 @@
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/dynamic_bridge.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/dynamic_bridge__rmw_opensplice_cpp.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/generate_factories.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/ros1_bridge_listener.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/ros1_bridge_listener__rmw_opensplice_cpp.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/ros1_bridge_talker.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/ros1_bridge_talker__rmw_opensplice_cpp.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/simple_bridge.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/simple_bridge_1_to_2.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/simple_bridge_1_to_2__rmw_opensplice_cpp.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/simple_bridge_2_to_1.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/simple_bridge_2_to_1__rmw_opensplice_cpp.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/simple_bridge__rmw_opensplice_cpp.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/static_bridge.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/static_bridge__rmw_opensplice_cpp.dir
+/home/erle/ros2_ws/build/ros1_bridge/CMakeFiles/uninstall.dir

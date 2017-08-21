@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__ChannelFloat32__idl__
+#define __sensor_msgs__msg__ChannelFloat32__idl__
+
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct ChannelFloat32_
+{
+
+  string name_;
+  sequence<float> values_;
+
+};  // struct ChannelFloat32_
+
+#pragma keylist ChannelFloat32_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__ChannelFloat32__idl__

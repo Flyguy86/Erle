@@ -1,0 +1,24 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/home/erle/ros2_ws/build/std_srvs/rosidl_generator_dds_idl/std_srvs",
+  "template_dir": "/home/erle/ros2_ws/install/share/rosidl_generator_dds_idl/resource",
+  "ros_interface_files": [
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Empty.srv",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Trigger.srv",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Response.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Response.msg"
+  ],
+  "target_dependencies": [
+    "/home/erle/ros2_ws/install/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl",
+    "/home/erle/ros2_ws/install/lib/python3.4/site-packages/rosidl_generator_dds_idl/__init__.py",
+    "/home/erle/ros2_ws/install/share/rosidl_generator_dds_idl/resource/msg.idl.template",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Empty.srv",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Trigger.srv",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Response.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Response.msg"
+  ]
+}

@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __nav_msgs__srv__GetPlan_Request__idl__
+#define __nav_msgs__srv__GetPlan_Request__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/PoseStamped_.idl"
+
+module nav_msgs
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct GetPlan_Request_
+{
+
+  geometry_msgs::msg::dds_::PoseStamped_ start_;
+  geometry_msgs::msg::dds_::PoseStamped_ goal_;
+  float tolerance_;
+
+};  // struct GetPlan_Request_
+
+#pragma keylist GetPlan_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module nav_msgs
+
+#endif  // __nav_msgs__srv__GetPlan_Request__idl__

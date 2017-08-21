@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "xacro")
+set(xacro_VERSION "1.10.6")
+set(xacro_MAINTAINER "Morgan Quigley <morgan@osrfoundation.org>")
+set(xacro_BUILD_DEPENDS "roslint")
+set(xacro_RUN_DEPENDS "roslaunch")
+set(xacro_DEPRECATED "")
+set(xacro_BUILDTOOL_DEPENDS "catkin")
+set(xacro_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

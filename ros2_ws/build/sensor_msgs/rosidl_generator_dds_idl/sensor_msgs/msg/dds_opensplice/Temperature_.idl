@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__Temperature__idl__
+#define __sensor_msgs__msg__Temperature__idl__
+
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Temperature_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  double temperature_;
+  double variance_;
+
+};  // struct Temperature_
+
+#pragma keylist Temperature_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__Temperature__idl__

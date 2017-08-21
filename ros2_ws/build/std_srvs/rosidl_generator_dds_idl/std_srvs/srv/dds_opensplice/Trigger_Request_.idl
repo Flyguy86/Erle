@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __std_srvs__srv__Trigger_Request__idl__
+#define __std_srvs__srv__Trigger_Request__idl__
+
+
+module std_srvs
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct Trigger_Request_
+{
+
+  boolean _dummy;
+
+};  // struct Trigger_Request_
+
+#pragma keylist Trigger_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module std_srvs
+
+#endif  // __std_srvs__srv__Trigger_Request__idl__

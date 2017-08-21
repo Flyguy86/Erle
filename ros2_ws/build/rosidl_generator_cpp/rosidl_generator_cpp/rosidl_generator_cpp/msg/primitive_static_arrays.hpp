@@ -1,0 +1,9 @@
+// generated from rosidl_generator_cpp/resource/msg.hpp.template
+
+#ifndef __rosidl_generator_cpp__msg__primitive_static_arrays__hpp__
+#define __rosidl_generator_cpp__msg__primitive_static_arrays__hpp__
+
+#include "rosidl_generator_cpp/msg/primitive_static_arrays__struct.hpp"
+#include "rosidl_generator_cpp/msg/primitive_static_arrays__traits.hpp"
+
+#endif  // __rosidl_generator_cpp__msg__primitive_static_arrays__hpp__

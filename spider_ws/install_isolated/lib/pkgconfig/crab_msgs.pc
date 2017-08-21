@@ -1,0 +1,8 @@
+prefix=/home/erle/spider_ws/install_isolated
+
+Name: crab_msgs
+Description: Description of crab_msgs
+Version: 0.0.0
+Cflags: -I/home/erle/spider_ws/install_isolated/include
+Libs: -L/home/erle/spider_ws/install_isolated/lib 
+Requires: message_runtime

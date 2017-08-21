@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_cppcheck/share/ament_cppcheck/local_setup.sh

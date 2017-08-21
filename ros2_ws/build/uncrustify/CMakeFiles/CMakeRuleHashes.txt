@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+1a5f918a8b9407dafa68ab0a9eb0e571 CMakeFiles/uncrustify
+fb9657743e78ce45cf6d17c179f1f7e1 CMakeFiles/uncrustify-complete
+357645b755c7ab5c5c73fd2440f85830 CMakeFiles/uninstall
+748b41a2789fead4eced4c28bf8fbaac external_project/src/uncrustify-stamp/uncrustify-build
+c0a1bb69091f5e4bbb156c530d5e27d9 external_project/src/uncrustify-stamp/uncrustify-configure
+ca5f7d5e3a658c8adbdc015ba338aa08 external_project/src/uncrustify-stamp/uncrustify-copy_source
+c46584871303a2e186c63fd58025fede external_project/src/uncrustify-stamp/uncrustify-download
+7efde40ada564636bdc64b2eff3d3858 external_project/src/uncrustify-stamp/uncrustify-install
+a8fc68faa2a488955de6aecb912b2265 external_project/src/uncrustify-stamp/uncrustify-mkdir
+9c459cecbed90297c240c2b9c36b079e external_project/src/uncrustify-stamp/uncrustify-patch
+cd74e5e5d262f0e899fb48596cfb1a52 external_project/src/uncrustify-stamp/uncrustify-update

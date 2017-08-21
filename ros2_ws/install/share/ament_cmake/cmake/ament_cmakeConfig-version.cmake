@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_cmake/ament_cmake_core/ament_cmakeConfig-version.cmake

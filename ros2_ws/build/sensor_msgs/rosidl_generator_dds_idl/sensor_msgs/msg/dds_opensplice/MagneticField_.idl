@@ -1,0 +1,39 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__MagneticField__idl__
+#define __sensor_msgs__msg__MagneticField__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Vector3_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+typedef double sensor_msgs__MagneticField__double_array_9[9];
+
+struct MagneticField_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  geometry_msgs::msg::dds_::Vector3_ magnetic_field_;
+sensor_msgs__MagneticField__double_array_9 magnetic_field_covariance_;
+
+};  // struct MagneticField_
+
+#pragma keylist MagneticField_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__MagneticField__idl__

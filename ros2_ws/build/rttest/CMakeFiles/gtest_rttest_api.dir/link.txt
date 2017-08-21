@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11    CMakeFiles/gtest_rttest_api.dir/test/test_api.cpp.o  -o gtest_rttest_api -rdynamic gtest/libgtest.a gtest/libgtest_main.a librttest.so -lm -lstdc++ -lpthread -Wl,-rpath,/home/erle/ros2_ws/build/rttest 

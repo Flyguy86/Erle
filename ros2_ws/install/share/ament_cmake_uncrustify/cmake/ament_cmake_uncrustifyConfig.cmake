@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_cmake_uncrustify/ament_cmake_core/ament_cmake_uncrustifyConfig.cmake

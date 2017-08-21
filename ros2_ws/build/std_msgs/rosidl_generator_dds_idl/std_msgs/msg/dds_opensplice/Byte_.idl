@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __std_msgs__msg__Byte__idl__
+#define __std_msgs__msg__Byte__idl__
+
+
+module std_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Byte_
+{
+
+  octet data_;
+
+};  // struct Byte_
+
+#pragma keylist Byte_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module std_msgs
+
+#endif  // __std_msgs__msg__Byte__idl__

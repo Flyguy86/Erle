@@ -1,0 +1,17 @@
+/home/erle/ros2_ws/install/share/ament_clang_format/environment/pythonpath.sh
+/home/erle/ros2_ws/install/lib/python3.4/site-packages/ament_clang_format/__init__.py
+/home/erle/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_clang_format
+/home/erle/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_clang_format
+/home/erle/ros2_ws/install/share/ament_clang_format/environment/ament_prefix_path.sh
+/home/erle/ros2_ws/install/share/ament_clang_format/environment/path.sh
+/home/erle/ros2_ws/install/share/ament_clang_format/local_setup.bash
+/home/erle/ros2_ws/install/share/ament_clang_format/local_setup.sh
+/home/erle/ros2_ws/install/share/ament_clang_format/local_setup.zsh
+/home/erle/ros2_ws/install/share/ament_index/resource_index/packages/ament_clang_format
+/home/erle/ros2_ws/install/share/ament_clang_format/cmake/ament_clang_format-extras.cmake
+/home/erle/ros2_ws/install/share/ament_clang_format/cmake/ament_clang_formatConfig.cmake
+/home/erle/ros2_ws/install/share/ament_clang_format/cmake/ament_clang_formatConfig-version.cmake
+/home/erle/ros2_ws/install/share/ament_clang_format/package.xml
+/home/erle/ros2_ws/install/bin/ament_clang_format
+/home/erle/ros2_ws/install/share/ament_clang_format/cmake/ament_clang_format.cmake
+/home/erle/ros2_ws/install/share/ament_clang_format/cmake/ament_clang_format_lint_hook.cmake

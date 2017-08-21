@@ -1,0 +1,16 @@
+setup.py
+ament_copyright/__init__.py
+ament_copyright/copyright_names.py
+ament_copyright/crawler.py
+ament_copyright/licenses.py
+ament_copyright/main.py
+ament_copyright/parser.py
+ament_copyright.egg-info/PKG-INFO
+ament_copyright.egg-info/SOURCES.txt
+ament_copyright.egg-info/dependency_links.txt
+ament_copyright.egg-info/entry_points.txt
+ament_copyright.egg-info/requires.txt
+ament_copyright.egg-info/top_level.txt
+ament_copyright/template/apache2_contributing.txt
+ament_copyright/template/apache2_header.txt
+ament_copyright/template/apache2_license.txt

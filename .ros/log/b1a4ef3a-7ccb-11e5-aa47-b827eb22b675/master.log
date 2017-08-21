@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2015-10-27 16:56:42,734: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2015-10-27 16:56:42,736: Starting ROS Master Node
+[xmlrpc][INFO] 2015-10-27 16:56:42,741: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2015-10-27 16:56:42,744: Started XML-RPC server [http://erle-brain-2:11311/]
+[xmlrpc][INFO] 2015-10-27 16:56:42,746: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2015-10-27 16:56:42,748: Master initialized: port[11311], uri[http://erle-brain-2:11311/]
+[rosmaster.master][INFO] 2015-10-27 16:56:42,871: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2015-10-27 16:56:42,881: +PARAM [/roslaunch/uris/host_erle_brain_2__54157] by /roslaunch
+[rosmaster.master][INFO] 2015-10-27 16:56:43,068: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2015-10-27 16:56:43,070: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2015-10-27 16:56:43,126: +SERVICE [/rosout/get_loggers] /rosout http://erle-brain-2:49737/
+[rosmaster.master][INFO] 2015-10-27 16:56:43,133: +SERVICE [/rosout/set_logger_level] /rosout http://erle-brain-2:49737/
+[rosmaster.master][INFO] 2015-10-27 16:56:43,147: +PUB [/rosout_agg] /rosout http://erle-brain-2:49737/
+[rosmaster.master][INFO] 2015-10-27 16:56:43,185: +SUB [/rosout] /rosout http://erle-brain-2:49737/
+[rosmaster.master][INFO] 2015-10-27 16:58:42,536: -PUB [/rosout_agg] /rosout http://erle-brain-2:49737/
+[rosmaster.master][INFO] 2015-10-27 16:58:42,542: -SUB [/rosout] /rosout http://erle-brain-2:49737/
+[rosmaster.master][INFO] 2015-10-27 16:58:42,548: -SERVICE [/rosout/get_loggers] /rosout rosrpc://erle-brain-2:47612
+[rosmaster.master][INFO] 2015-10-27 16:58:42,554: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://erle-brain-2:47612
+[rosmaster.main][INFO] 2015-10-27 16:58:42,746: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2015-10-27 16:58:42,747: stopping master...
+[rospy.core][INFO] 2015-10-27 16:58:42,748: signal_shutdown [atexit]

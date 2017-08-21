@@ -1,0 +1,7 @@
+setup.py
+ament_index_python/__init__.py
+ament_index_python.egg-info/PKG-INFO
+ament_index_python.egg-info/SOURCES.txt
+ament_index_python.egg-info/dependency_links.txt
+ament_index_python.egg-info/requires.txt
+ament_index_python.egg-info/top_level.txt

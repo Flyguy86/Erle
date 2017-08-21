@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __nav_msgs__srv__GetMap_Request__idl__
+#define __nav_msgs__srv__GetMap_Request__idl__
+
+
+module nav_msgs
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct GetMap_Request_
+{
+
+  boolean _dummy;
+
+};  // struct GetMap_Request_
+
+#pragma keylist GetMap_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module nav_msgs
+
+#endif  // __nav_msgs__srv__GetMap_Request__idl__

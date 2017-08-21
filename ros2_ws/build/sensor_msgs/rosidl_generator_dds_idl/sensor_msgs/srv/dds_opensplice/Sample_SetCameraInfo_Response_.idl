@@ -1,0 +1,39 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__srv__Sample_SetCameraInfo_Response__idl__
+#define __sensor_msgs__srv__Sample_SetCameraInfo_Response__idl__
+
+
+#include "sensor_msgs/srv/dds_opensplice/SetCameraInfo_Response_.idl"
+
+module sensor_msgs
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct Sample_SetCameraInfo_Response_
+{
+
+  unsigned long long client_guid_0_;
+  unsigned long long client_guid_1_;
+  long long sequence_number_;
+  sensor_msgs::srv::dds_::SetCameraInfo_Response_ response_;
+
+};  // struct Sample_SetCameraInfo_Response_
+
+#pragma keylist Sample_SetCameraInfo_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__srv__Sample_SetCameraInfo_Response__idl__

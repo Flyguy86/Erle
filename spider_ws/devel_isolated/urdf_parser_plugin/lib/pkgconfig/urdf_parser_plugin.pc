@@ -1,0 +1,8 @@
+prefix=/home/erle/spider_ws/devel_isolated/urdf_parser_plugin
+
+Name: urdf_parser_plugin
+Description: Description of urdf_parser_plugin
+Version: 1.11.6
+Cflags: -I/home/erle/spider_ws/src/urdf_parser_plugin/include -I/usr/include
+Libs: -L/home/erle/spider_ws/devel_isolated/urdf_parser_plugin/lib 
+Requires: 

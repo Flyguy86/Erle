@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __rcl_interfaces__msg__ParameterDescriptor__idl__
+#define __rcl_interfaces__msg__ParameterDescriptor__idl__
+
+
+module rcl_interfaces
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct ParameterDescriptor_
+{
+
+  string name_;
+  octet type_;
+
+};  // struct ParameterDescriptor_
+
+#pragma keylist ParameterDescriptor_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module rcl_interfaces
+
+#endif  // __rcl_interfaces__msg__ParameterDescriptor__idl__

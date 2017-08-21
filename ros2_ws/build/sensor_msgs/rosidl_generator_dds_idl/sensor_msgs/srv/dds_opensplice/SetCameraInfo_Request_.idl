@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__srv__SetCameraInfo_Request__idl__
+#define __sensor_msgs__srv__SetCameraInfo_Request__idl__
+
+#include "sensor_msgs/msg/dds_opensplice/CameraInfo_.idl"
+
+module sensor_msgs
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct SetCameraInfo_Request_
+{
+
+  sensor_msgs::msg::dds_::CameraInfo_ camera_info_;
+
+};  // struct SetCameraInfo_Request_
+
+#pragma keylist SetCameraInfo_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__srv__SetCameraInfo_Request__idl__

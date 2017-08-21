@@ -1,0 +1,36 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__Pose2D__idl__
+#define __geometry_msgs__msg__Pose2D__idl__
+
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Pose2D_
+{
+
+  double x_;
+  double y_;
+  double theta_;
+
+};  // struct Pose2D_
+
+#pragma keylist Pose2D_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__Pose2D__idl__

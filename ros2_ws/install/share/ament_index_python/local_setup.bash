@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_index_python/share/ament_index_python/local_setup.bash

@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_cmake_copyright/ament_cmake_core/ament_cmake_copyrightConfig.cmake

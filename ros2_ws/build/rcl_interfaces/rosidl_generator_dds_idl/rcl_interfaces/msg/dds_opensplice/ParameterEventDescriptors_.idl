@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __rcl_interfaces__msg__ParameterEventDescriptors__idl__
+#define __rcl_interfaces__msg__ParameterEventDescriptors__idl__
+
+#include "rcl_interfaces/msg/dds_opensplice/ParameterDescriptor_.idl"
+
+module rcl_interfaces
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct ParameterEventDescriptors_
+{
+
+  sequence<rcl_interfaces::msg::dds_::ParameterDescriptor_> new_parameters_;
+  sequence<rcl_interfaces::msg::dds_::ParameterDescriptor_> changed_parameters_;
+  sequence<rcl_interfaces::msg::dds_::ParameterDescriptor_> deleted_parameters_;
+
+};  // struct ParameterEventDescriptors_
+
+#pragma keylist ParameterEventDescriptors_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module rcl_interfaces
+
+#endif  // __rcl_interfaces__msg__ParameterEventDescriptors__idl__

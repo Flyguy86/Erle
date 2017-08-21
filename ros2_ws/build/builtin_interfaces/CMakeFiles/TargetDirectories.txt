@@ -1,0 +1,6 @@
+/home/erle/ros2_ws/build/builtin_interfaces/CMakeFiles/builtin_interfaces.dir
+/home/erle/ros2_ws/build/builtin_interfaces/CMakeFiles/builtin_interfaces__c.dir
+/home/erle/ros2_ws/build/builtin_interfaces/CMakeFiles/builtin_interfaces__cpp.dir
+/home/erle/ros2_ws/build/builtin_interfaces/CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir
+/home/erle/ros2_ws/build/builtin_interfaces/CMakeFiles/builtin_interfaces__rosidl_typesupport_opensplice_cpp.dir
+/home/erle/ros2_ws/build/builtin_interfaces/CMakeFiles/uninstall.dir

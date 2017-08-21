@@ -1,0 +1,8 @@
+prefix=/home/erle/spider_ws/devel_isolated/crab_maestro_controller
+
+Name: crab_maestro_controller
+Description: Description of crab_maestro_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/erle/spider_ws/devel_isolated/crab_maestro_controller/lib 
+Requires: 

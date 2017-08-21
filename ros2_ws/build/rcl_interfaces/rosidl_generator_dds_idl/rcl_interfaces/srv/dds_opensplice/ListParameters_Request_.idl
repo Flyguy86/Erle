@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __rcl_interfaces__srv__ListParameters_Request__idl__
+#define __rcl_interfaces__srv__ListParameters_Request__idl__
+
+
+module rcl_interfaces
+{
+
+module srv
+{
+
+module dds_
+{
+
+  const unsigned long long ListParameters_Request__DEPTH_RECURSIVE =
+    0;
+
+
+
+struct ListParameters_Request_
+{
+
+  sequence<string> prefixes_;
+  unsigned long long depth_;
+
+};  // struct ListParameters_Request_
+
+#pragma keylist ListParameters_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module rcl_interfaces
+
+#endif  // __rcl_interfaces__srv__ListParameters_Request__idl__

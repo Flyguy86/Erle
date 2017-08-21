@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/pendulum_control/ament_cmake_core/pendulum_controlConfig.cmake

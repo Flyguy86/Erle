@@ -1,0 +1,36 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__Wrench__idl__
+#define __geometry_msgs__msg__Wrench__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Vector3_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Wrench_
+{
+
+  geometry_msgs::msg::dds_::Vector3_ force_;
+  geometry_msgs::msg::dds_::Vector3_ torque_;
+
+};  // struct Wrench_
+
+#pragma keylist Wrench_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__Wrench__idl__

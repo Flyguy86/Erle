@@ -1,0 +1,6 @@
+/home/erle/ros2_ws/build/std_srvs/CMakeFiles/std_srvs.dir
+/home/erle/ros2_ws/build/std_srvs/CMakeFiles/std_srvs__cpp.dir
+/home/erle/ros2_ws/build/std_srvs/CMakeFiles/std_srvs__dds_opensplice_idl.dir
+/home/erle/ros2_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir
+/home/erle/ros2_ws/build/std_srvs/CMakeFiles/std_srvs__rosidl_typesupport_opensplice_cpp.dir
+/home/erle/ros2_ws/build/std_srvs/CMakeFiles/uninstall.dir

@@ -1,0 +1,36 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__Twist__idl__
+#define __geometry_msgs__msg__Twist__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Vector3_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Twist_
+{
+
+  geometry_msgs::msg::dds_::Vector3_ linear_;
+  geometry_msgs::msg::dds_::Vector3_ angular_;
+
+};  // struct Twist_
+
+#pragma keylist Twist_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__Twist__idl__

@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_package/share/ament_package/local_setup.zsh

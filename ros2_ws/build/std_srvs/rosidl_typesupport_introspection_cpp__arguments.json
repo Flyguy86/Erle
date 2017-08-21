@@ -1,0 +1,25 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/home/erle/ros2_ws/build/std_srvs/rosidl_typesupport_introspection_cpp/std_srvs",
+  "template_dir": "/home/erle/ros2_ws/install/share/rosidl_typesupport_introspection_cpp/resource",
+  "ros_interface_files": [
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Empty.srv",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Trigger.srv",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Response.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Response.msg"
+  ],
+  "target_dependencies": [
+    "/home/erle/ros2_ws/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/home/erle/ros2_ws/install/lib/python3.4/site-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/home/erle/ros2_ws/install/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.template",
+    "/home/erle/ros2_ws/install/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.template",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Empty.srv",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/std_srvs/srv/Trigger.srv",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Empty_Response.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Request.msg",
+    "/home/erle/ros2_ws/build/std_srvs/srv/Trigger_Response.msg"
+  ]
+}

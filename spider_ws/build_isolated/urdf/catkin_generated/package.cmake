@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "urdf")
+set(urdf_VERSION "1.11.6")
+set(urdf_MAINTAINER "Ioan Sucan <isucan@gmail.com>")
+set(urdf_BUILD_DEPENDS "liburdfdom-dev" "liburdfdom-headers-dev" "rosconsole_bridge" "roscpp" "urdf_parser_plugin" "pluginlib" "cmake_modules" "rostest")
+set(urdf_RUN_DEPENDS "liburdfdom-dev" "liburdfdom-headers-dev" "rosconsole_bridge" "roscpp" "urdf_parser_plugin" "pluginlib")
+set(urdf_DEPRECATED "")
+set(urdf_BUILDTOOL_DEPENDS "catkin")
+set(urdf_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

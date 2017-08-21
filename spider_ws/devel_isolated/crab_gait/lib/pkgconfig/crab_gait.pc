@@ -1,0 +1,8 @@
+prefix=/home/erle/spider_ws/devel_isolated/crab_gait
+
+Name: crab_gait
+Description: Description of crab_gait
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/erle/spider_ws/devel_isolated/crab_gait/lib 
+Requires: 

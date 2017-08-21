@@ -1,0 +1,170 @@
+[roslaunch][INFO] 2015-10-27 16:32:01,747: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2015-10-27 16:32:01,766: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2015-10-27 16:32:01,768: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2015-10-27 16:32:01,769: roslaunch env is {'ROS_DISTRO': 'indigo', 'SSH_CLIENT': '192.168.1.39 52901 22', 'CPATH': '/home/erle/ros_catkin_ws/install_isolated/include', 'LOGNAME': 'erle', 'USER': 'erle', 'HOME': '/home/erle', 'PATH': '/home/erle/ros_catkin_ws/install_isolated/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games', 'CMAKE_PREFIX_PATH': '/home/erle/ros_catkin_ws/install_isolated', 'LD_LIBRARY_PATH': '/home/erle/ros_catkin_ws/install_isolated/lib:/home/erle/ros_catkin_ws/install_isolated/lib/arm-linux-gnueabihf', 'LANG': 'en_GB.UTF-8', 'TERM': 'xterm-color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'ROS_LOG_FILENAME': '/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/roslaunch-erle-brain-2-20268.log', 'ROS_ETC_DIR': '/home/erle/ros_catkin_ws/install_isolated/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/1001', 'PYTHONPATH': '/home/erle/ros_catkin_ws/install_isolated/lib/python2.7/dist-packages', 'ROS_ROOT': '/home/erle/ros_catkin_ws/install_isolated/share/ros', 'PKG_CONFIG_PATH': '/home/erle/ros_catkin_ws/install_isolated/lib/pkgconfig:/home/erle/ros_catkin_ws/install_isolated/lib/arm-linux-gnueabihf/pkgconfig', 'ROS_PACKAGE_PATH': '/home/erle/ros_catkin_ws/install_isolated/share:/home/erle/ros_catkin_ws/install_isolated/stacks', 'XDG_SESSION_ID': 'c3', '_': '/home/erle/ros_catkin_ws/install_isolated/bin/roscore', 'SSH_CONNECTION': '192.168.1.39 52901 192.168.1.54 22', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PWD': '/home/erle', 'ROS_MASTER_URI': 'http://localhost:11311', 'MAIL': '/var/mail/erle', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2015-10-27 16:32:01,770: starting in server mode
+[roslaunch.parent][INFO] 2015-10-27 16:32:01,772: starting roslaunch parent run
+[roslaunch][INFO] 2015-10-27 16:32:01,773: loading roscore config file /home/erle/ros_catkin_ws/install_isolated/etc/ros/roscore.xml
+[roslaunch][INFO] 2015-10-27 16:32:02,297: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2015-10-27 16:32:02,299: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2015-10-27 16:32:02,300: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2015-10-27 16:32:02,301: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2015-10-27 16:32:02,302: starting parent XML-RPC server
+[roslaunch.server][INFO] 2015-10-27 16:32:02,303: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2015-10-27 16:32:02,304: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2015-10-27 16:32:02,305: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-10-27 16:32:02,307: Started XML-RPC server [http://erle-brain-2:34353/]
+[xmlrpc][INFO] 2015-10-27 16:32:02,308: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2015-10-27 16:32:02,324: started roslaunch server http://erle-brain-2:34353/
+[roslaunch.parent][INFO] 2015-10-27 16:32:02,326: ... parent XML-RPC server started
+[roslaunch][INFO] 2015-10-27 16:32:02,328: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:02,336: auto-starting new master
+[roslaunch][INFO] 2015-10-27 16:32:02,338: create_master_process: rosmaster, /home/erle/ros_catkin_ws/install_isolated/share/ros, 11311
+[roslaunch][INFO] 2015-10-27 16:32:02,338: process[master]: launching with args [['rosmaster', '--core', '-p', '11311']]
+[roslaunch.pmon][INFO] 2015-10-27 16:32:02,339: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2015-10-27 16:32:02,341: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2015-10-27 16:32:02,342: process[master]: starting os process
+[roslaunch][INFO] 2015-10-27 16:32:02,343: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/master.log']]
+[roslaunch][INFO] 2015-10-27 16:32:02,343: process[master]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:02,403: process[master]: started with pid [20324]
+[roslaunch][INFO] 2015-10-27 16:32:02,405: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:02,509: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:02,613: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:02,717: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:02,821: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:02,924: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:03,028: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:03,132: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:03,236: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:03,341: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:03,355: master.is_running[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:03,363: ROS_MASTER_URI=http://erle-brain-2:11311/
+[roslaunch][INFO] 2015-10-27 16:32:03,374: setting /run_id to 3f20de90-7cc8-11e5-98ab-b827eb22b675
+[roslaunch][INFO] 2015-10-27 16:32:03,384: setting /roslaunch/uris/host_erle_brain_2__34353' to http://erle-brain-2:34353/
+[roslaunch][INFO] 2015-10-27 16:32:03,402: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2015-10-27 16:32:03,403: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://erle-brain-2:11311/]
+[roslaunch][INFO] 2015-10-27 16:32:03,405: process[rosout-1]: env[{'ROS_DISTRO': 'indigo', 'SSH_CLIENT': '192.168.1.39 52901 22', 'CPATH': '/home/erle/ros_catkin_ws/install_isolated/include', 'LOGNAME': 'erle', 'USER': 'erle', 'HOME': '/home/erle', 'PATH': '/home/erle/ros_catkin_ws/install_isolated/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games', 'CMAKE_PREFIX_PATH': '/home/erle/ros_catkin_ws/install_isolated', 'ROS_LOG_FILENAME': '/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/roslaunch-erle-brain-2-20268.log', 'LANG': 'en_GB.UTF-8', 'TERM': 'xterm-color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/erle/ros_catkin_ws/install_isolated/lib:/home/erle/ros_catkin_ws/install_isolated/lib/arm-linux-gnueabihf', 'ROS_MASTER_URI': 'http://erle-brain-2:11311/', 'XDG_RUNTIME_DIR': '/run/user/1001', 'PYTHONPATH': '/home/erle/ros_catkin_ws/install_isolated/lib/python2.7/dist-packages', 'ROS_ROOT': '/home/erle/ros_catkin_ws/install_isolated/share/ros', 'PKG_CONFIG_PATH': '/home/erle/ros_catkin_ws/install_isolated/lib/pkgconfig:/home/erle/ros_catkin_ws/install_isolated/lib/arm-linux-gnueabihf/pkgconfig', 'ROS_PACKAGE_PATH': '/home/erle/ros_catkin_ws/install_isolated/share:/home/erle/ros_catkin_ws/install_isolated/stacks', 'XDG_SESSION_ID': 'c3', '_': '/home/erle/ros_catkin_ws/install_isolated/bin/roscore', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PWD': '/home/erle', 'ROS_ETC_DIR': '/home/erle/ros_catkin_ws/install_isolated/etc/ros', 'MAIL': '/var/mail/erle', 'SSH_CONNECTION': '192.168.1.39 52901 192.168.1.54 22'}]
+[roslaunch][INFO] 2015-10-27 16:32:03,490: process[rosout-1]: args[[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2015-10-27 16:32:03,492: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2015-10-27 16:32:03,493: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2015-10-27 16:32:03,493: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2015-10-27 16:32:03,494: ... registered process [rosout-1]
+[roslaunch][INFO] 2015-10-27 16:32:03,495: process[rosout-1]: starting os process
+[roslaunch][INFO] 2015-10-27 16:32:03,496: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:03,497: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:03,557: process[rosout-1]: started with pid [20337]
+[roslaunch][INFO] 2015-10-27 16:32:03,559: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2015-10-27 16:32:03,560: load_parameters starting ...
+[roslaunch][INFO] 2015-10-27 16:32:03,583: ... load_parameters complete
+[roslaunch][INFO] 2015-10-27 16:32:03,584: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2015-10-27 16:32:03,584: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2015-10-27 16:32:03,585: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 1982948448)>
+[roslaunch.parent][INFO] 2015-10-27 16:32:03,586: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2015-10-27 16:32:03,586: spin
+[roslaunch][ERROR] 2015-10-27 16:32:03,607: [rosout-1] process has died [pid 20337, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:03,609: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:03,610: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:03,612: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:03,613: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:03,672: process[rosout-1]: started with pid [20340]
+[roslaunch][ERROR] 2015-10-27 16:32:03,775: [rosout-1] process has died [pid 20340, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:03,776: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:03,777: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:03,779: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:03,780: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:03,839: process[rosout-1]: started with pid [20341]
+[roslaunch][ERROR] 2015-10-27 16:32:03,942: [rosout-1] process has died [pid 20341, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:03,944: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:03,945: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:03,947: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:03,947: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:04,007: process[rosout-1]: started with pid [20342]
+[roslaunch][ERROR] 2015-10-27 16:32:04,109: [rosout-1] process has died [pid 20342, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:04,111: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:04,112: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:04,114: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:04,115: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:04,175: process[rosout-1]: started with pid [20343]
+[roslaunch][ERROR] 2015-10-27 16:32:04,278: [rosout-1] process has died [pid 20343, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:04,279: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:04,280: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:04,282: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:04,283: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:04,343: process[rosout-1]: started with pid [20344]
+[roslaunch][ERROR] 2015-10-27 16:32:04,446: [rosout-1] process has died [pid 20344, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:04,447: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:04,448: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:04,450: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:04,451: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:04,510: process[rosout-1]: started with pid [20345]
+[roslaunch][ERROR] 2015-10-27 16:32:04,613: [rosout-1] process has died [pid 20345, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:04,615: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:04,616: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:04,618: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:04,619: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:04,678: process[rosout-1]: started with pid [20346]
+[roslaunch][ERROR] 2015-10-27 16:32:04,780: [rosout-1] process has died [pid 20346, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:04,782: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:04,783: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:04,785: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:04,786: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:04,845: process[rosout-1]: started with pid [20347]
+[roslaunch][ERROR] 2015-10-27 16:32:04,948: [rosout-1] process has died [pid 20347, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:04,950: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:04,958: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:04,959: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:04,960: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:05,020: process[rosout-1]: started with pid [20348]
+[roslaunch][ERROR] 2015-10-27 16:32:05,123: [rosout-1] process has died [pid 20348, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:05,124: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:05,125: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:05,127: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:05,128: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:05,188: process[rosout-1]: started with pid [20349]
+[roslaunch][ERROR] 2015-10-27 16:32:05,291: [rosout-1] process has died [pid 20349, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:05,292: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:05,294: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:05,299: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:05,300: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:05,360: process[rosout-1]: started with pid [20350]
+[roslaunch][ERROR] 2015-10-27 16:32:05,462: [rosout-1] process has died [pid 20350, exit code 127, cmd /home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout __name:=rosout __log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log].
+log file: /home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1*.log
+[roslaunch][INFO] 2015-10-27 16:32:05,464: [rosout-1] restarting process
+[roslaunch][INFO] 2015-10-27 16:32:05,465: process[rosout-1]: restarting os process
+[roslaunch][INFO] 2015-10-27 16:32:05,467: process[rosout-1]: start w/ args [[u'/home/erle/ros_catkin_ws/install_isolated/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/3f20de90-7cc8-11e5-98ab-b827eb22b675/rosout-1.log']]
+[roslaunch][INFO] 2015-10-27 16:32:05,468: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2015-10-27 16:32:05,527: process[rosout-1]: started with pid [20351]
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,609: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 1982948448)>
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,629: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 1982948448)>
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,630: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 1982948448)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7633ccf0>, <roslaunch.nodeprocess.LocalProcess object at 0x7633ce10>]
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,638: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2015-10-27 16:32:05,639: [rosout-1] killing on exit
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,640: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2015-10-27 16:32:05,641: [master] killing on exit
+[roslaunch][INFO] 2015-10-27 16:32:05,642: process[master]: killing os process with pid[20324] pgid[20324]
+[roslaunch][INFO] 2015-10-27 16:32:05,643: [master] sending SIGINT to pgid [20324]
+[roslaunch][INFO] 2015-10-27 16:32:05,644: [master] sent SIGINT to pgid [20324]
+[roslaunch][INFO] 2015-10-27 16:32:05,845: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,846: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,847: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2015-10-27 16:32:05,875: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2015-10-27 16:32:05,876: runner.stop()
+[roslaunch][INFO] 2015-10-27 16:32:05,877: shutting down processing monitor...
+[roslaunch][INFO] 2015-10-27 16:32:05,877: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 1982948448)>
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,878: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 1982948448)>
+[roslaunch][INFO] 2015-10-27 16:32:05,879: ... shutting down processing monitor complete
+[roslaunch][INFO] 2015-10-27 16:32:05,880: done
+[roslaunch.pmon][INFO] 2015-10-27 16:32:05,881: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 1982948448)>
+[rospy.core][INFO] 2015-10-27 16:32:05,882: signal_shutdown [atexit]

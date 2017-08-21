@@ -1,0 +1,13 @@
+[rosmaster.main][INFO] 2015-10-27 16:14:33,110: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2015-10-27 16:14:33,111: Starting ROS Master Node
+[xmlrpc][INFO] 2015-10-27 16:14:33,119: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2015-10-27 16:14:33,121: Started XML-RPC server [http://erle-brain-2:11311/]
+[rosmaster.master][INFO] 2015-10-27 16:14:33,122: Master initialized: port[11311], uri[http://erle-brain-2:11311/]
+[xmlrpc][INFO] 2015-10-27 16:14:33,123: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2015-10-27 16:14:33,253: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2015-10-27 16:14:33,263: +PARAM [/roslaunch/uris/host_erle_brain_2__58316] by /roslaunch
+[rosmaster.master][INFO] 2015-10-27 16:14:33,449: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2015-10-27 16:14:33,450: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.main][INFO] 2015-10-27 16:14:36,848: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2015-10-27 16:14:36,849: stopping master...
+[rospy.core][INFO] 2015-10-27 16:14:36,850: signal_shutdown [atexit]

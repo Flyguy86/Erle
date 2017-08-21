@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/include/rosidl_generator_cpp/message_type_support_decl.hpp

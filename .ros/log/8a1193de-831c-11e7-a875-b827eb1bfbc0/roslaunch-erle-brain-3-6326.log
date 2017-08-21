@@ -1,0 +1,88 @@
+[roslaunch][INFO] 2017-08-17 07:20:25,888: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2017-08-17 07:20:25,974: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2017-08-17 07:20:25,976: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2017-08-17 07:20:25,977: roslaunch env is {'ROS_DISTRO': 'kinetic', 'SSH_CLIENT': '192.168.8.137 4026 22', 'LOGNAME': 'erle', 'USER': 'erle', 'HOME': '/home/erle', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games', 'CMAKE_PREFIX_PATH': '/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/opt/ros/kinetic/lib', 'LANG': 'en_GB.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'SHLVL': '1', 'ROS_LOG_FILENAME': '/home/erle/.ros/log/8a1193de-831c-11e7-a875-b827eb1bfbc0/roslaunch-erle-brain-3-6326.log', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/1001', 'PYTHONPATH': '/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/kinetic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/kinetic/share', 'XDG_SESSION_ID': 'c4', '_': '/opt/ros/kinetic/bin/roscore', 'SSH_CONNECTION': '192.168.8.137 4026 192.168.8.115 22', 'SSH_TTY': '/dev/pts/2', 'OLDPWD': '/home/erle/.ros', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PWD': '/home/erle', 'ROS_MASTER_URI': 'http://10.0.0.1:6001', 'MAIL': '/var/mail/erle', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2017-08-17 07:20:25,977: starting in server mode
+[roslaunch.parent][INFO] 2017-08-17 07:20:25,979: starting roslaunch parent run
+[roslaunch][INFO] 2017-08-17 07:20:25,981: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2017-08-17 07:20:27,093: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2017-08-17 07:20:27,094: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2017-08-17 07:20:27,095: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2017-08-17 07:20:27,096: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2017-08-17 07:20:27,097: starting parent XML-RPC server
+[roslaunch.server][INFO] 2017-08-17 07:20:27,098: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2017-08-17 07:20:27,099: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2017-08-17 07:20:27,099: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-08-17 07:20:27,101: Started XML-RPC server [http://erle-brain-3:34206/]
+[xmlrpc][INFO] 2017-08-17 07:20:27,102: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2017-08-17 07:20:27,118: started roslaunch server http://erle-brain-3:34206/
+[roslaunch.parent][INFO] 2017-08-17 07:20:27,119: ... parent XML-RPC server started
+[roslaunch][INFO] 2017-08-17 07:20:27,121: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][ERROR] 2017-08-17 07:20:27,721: WARNING: ROS_MASTER_URI port [6001] does not match this roscore [11311]
+[roslaunch][INFO] 2017-08-17 07:20:27,723: auto-starting new master
+[roslaunch][INFO] 2017-08-17 07:20:27,725: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2017-08-17 07:20:27,726: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2017-08-17 07:20:27,727: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2017-08-17 07:20:27,728: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2017-08-17 07:20:27,729: process[master]: starting os process
+[roslaunch][INFO] 2017-08-17 07:20:27,730: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/erle/.ros/log/8a1193de-831c-11e7-a875-b827eb1bfbc0/master.log']]
+[roslaunch][INFO] 2017-08-17 07:20:27,731: process[master]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2017-08-17 07:20:27,786: process[master]: started with pid [6354]
+[roslaunch][INFO] 2017-08-17 07:20:27,789: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:27,892: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:27,995: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:28,098: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:28,202: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:28,306: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:28,409: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:28,418: master.is_running[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:28,425: ROS_MASTER_URI=http://erle-brain-3:11311/
+[roslaunch][INFO] 2017-08-17 07:20:28,433: setting /run_id to 8a1193de-831c-11e7-a875-b827eb1bfbc0
+[roslaunch][INFO] 2017-08-17 07:20:28,440: setting /roslaunch/uris/host_erle_brain_3__34206' to http://erle-brain-3:34206/
+[roslaunch][INFO] 2017-08-17 07:20:28,469: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2017-08-17 07:20:28,470: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://erle-brain-3:11311/]
+[roslaunch][INFO] 2017-08-17 07:20:28,471: process[rosout-1]: env[{'ROS_DISTRO': 'kinetic', 'SSH_CLIENT': '192.168.8.137 4026 22', 'LOGNAME': 'erle', 'USER': 'erle', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games', 'HOME': '/home/erle', 'CMAKE_PREFIX_PATH': '/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/home/erle/.ros/log/8a1193de-831c-11e7-a875-b827eb1bfbc0/roslaunch-erle-brain-3-6326.log', 'LANG': 'en_GB.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kinetic/lib', 'ROS_MASTER_URI': 'http://erle-brain-3:11311/', 'XDG_RUNTIME_DIR': '/run/user/1001', 'PYTHONPATH': '/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/kinetic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/kinetic/share', 'XDG_SESSION_ID': 'c4', '_': '/opt/ros/kinetic/bin/roscore', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_TTY': '/dev/pts/2', 'OLDPWD': '/home/erle/.ros', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PWD': '/home/erle', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'MAIL': '/var/mail/erle', 'SSH_CONNECTION': '192.168.8.137 4026 192.168.8.115 22'}]
+[roslaunch][INFO] 2017-08-17 07:20:29,249: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2017-08-17 07:20:29,274: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2017-08-17 07:20:29,276: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2017-08-17 07:20:29,277: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2017-08-17 07:20:29,278: ... registered process [rosout-1]
+[roslaunch][INFO] 2017-08-17 07:20:29,279: process[rosout-1]: starting os process
+[roslaunch][INFO] 2017-08-17 07:20:29,285: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/erle/.ros/log/8a1193de-831c-11e7-a875-b827eb1bfbc0/rosout-1.log']]
+[roslaunch][INFO] 2017-08-17 07:20:29,286: process[rosout-1]: cwd will be [/home/erle/.ros]
+[roslaunch][INFO] 2017-08-17 07:20:29,351: process[rosout-1]: started with pid [6423]
+[roslaunch][INFO] 2017-08-17 07:20:29,353: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2017-08-17 07:20:29,356: load_parameters starting ...
+[roslaunch][INFO] 2017-08-17 07:20:29,457: ... load_parameters complete
+[roslaunch][INFO] 2017-08-17 07:20:29,459: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2017-08-17 07:20:29,460: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2017-08-17 07:20:29,461: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 1981989984)>
+[roslaunch.parent][INFO] 2017-08-17 07:20:29,461: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2017-08-17 07:20:29,462: spin
+[roslaunch.pmon][INFO] 2017-08-17 07:20:38,660: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 1981989984)>
+[roslaunch.pmon][INFO] 2017-08-17 07:20:38,760: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 1981989984)>
+[roslaunch.pmon][INFO] 2017-08-17 07:20:38,761: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 1981989984)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x762401f0>, <roslaunch.nodeprocess.LocalProcess object at 0x762a3b30>]
+[roslaunch.pmon][INFO] 2017-08-17 07:20:38,767: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2017-08-17 07:20:38,768: [rosout-1] killing on exit
+[roslaunch][INFO] 2017-08-17 07:20:38,768: process[rosout-1]: killing os process with pid[6423] pgid[6423]
+[roslaunch][INFO] 2017-08-17 07:20:38,769: [rosout-1] sending SIGINT to pgid [6423]
+[roslaunch][INFO] 2017-08-17 07:20:38,770: [rosout-1] sent SIGINT to pgid [6423]
+[roslaunch][INFO] 2017-08-17 07:20:39,472: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2017-08-17 07:20:39,473: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2017-08-17 07:20:39,474: [master] killing on exit
+[roslaunch][INFO] 2017-08-17 07:20:39,474: process[master]: killing os process with pid[6354] pgid[6354]
+[roslaunch][INFO] 2017-08-17 07:20:39,475: [master] sending SIGINT to pgid [6354]
+[roslaunch][INFO] 2017-08-17 07:20:39,476: [master] sent SIGINT to pgid [6354]
+[roslaunch][INFO] 2017-08-17 07:20:39,677: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2017-08-17 07:20:39,678: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2017-08-17 07:20:39,679: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2017-08-17 07:20:39,694: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2017-08-17 07:20:39,695: runner.stop()
+[roslaunch][INFO] 2017-08-17 07:20:39,695: shutting down processing monitor...
+[roslaunch][INFO] 2017-08-17 07:20:39,695: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 1981989984)>
+[roslaunch.pmon][INFO] 2017-08-17 07:20:39,696: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 1981989984)>
+[roslaunch][INFO] 2017-08-17 07:20:39,696: ... shutting down processing monitor complete
+[roslaunch][INFO] 2017-08-17 07:20:39,696: done
+[roslaunch.pmon][INFO] 2017-08-17 07:20:39,697: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 1981989984)>
+[rospy.core][INFO] 2017-08-17 07:20:39,697: signal_shutdown [atexit]

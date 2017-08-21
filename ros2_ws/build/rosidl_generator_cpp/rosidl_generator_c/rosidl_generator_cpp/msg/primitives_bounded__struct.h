@@ -1,0 +1,53 @@
+// generated from rosidl_generator_c/resource/msg__struct.h.template
+
+#ifndef ROSIDL_GENERATOR_CPP_ROSIDL_GENERATOR_CPP__MSG__PRIMITIVESBOUNDED__STRUCT_H_
+#define ROSIDL_GENERATOR_CPP_ROSIDL_GENERATOR_CPP__MSG__PRIMITIVESBOUNDED__STRUCT_H_
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+#include <rosidl_generator_c/arrays.h>
+
+// include message dependencies
+
+// types for static array fields
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, bool_value, bool, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, byte_value, uint8_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, char_value, char, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, float32_value, float, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, float64_value, double, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, int8_value, int8_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, uint8_value, uint8_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, int16_value, int16_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, uint16_value, uint16_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, int32_value, int32_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, uint32_value, uint32_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, int64_value, int64_t, 10);
+ROSIDL_GENERATE_STATIC_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded, uint64_value, uint64_t, 10);
+
+// message struct
+typedef struct rosidl_generator_cpp__msg__PrimitivesBounded
+{
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__bool_value bool_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__byte_value byte_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__char_value char_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__float32_value float32_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__float64_value float64_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__int8_value int8_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__uint8_value uint8_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__int16_value int16_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__uint16_value uint16_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__int32_value int32_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__uint32_value uint32_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__int64_value int64_value;
+  ROSIDL_Array__rosidl_generator_cpp__msg__PrimitivesBounded__uint64_value uint64_value;
+  char * string_value;
+} rosidl_generator_cpp__msg__PrimitivesBounded;
+
+// constants
+
+// symbols for arrays of the message type
+ROSIDL_GENERATE_ARRAY(rosidl_generator_cpp__msg__PrimitivesBounded);
+
+#endif  // ROSIDL_GENERATOR_CPP_ROSIDL_GENERATOR_CPP__MSG__PRIMITIVESBOUNDED__STRUCT_H_

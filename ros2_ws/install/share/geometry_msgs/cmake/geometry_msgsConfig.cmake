@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/geometry_msgs/ament_cmake_core/geometry_msgsConfig.cmake

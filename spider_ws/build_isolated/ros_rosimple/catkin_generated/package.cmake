@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ros_rosimple")
+set(ros_rosimple_MAINTAINER "Alejandro Hernández Cordero <ahcorde@erlerobot.com>, Víctor Mayoral Vilches <victor@erlerobot.com>")
+set(ros_rosimple_DEPRECATED "")
+set(ros_rosimple_VERSION "0.1.0")
+set(ros_rosimple_BUILD_DEPENDS "std_msgs")
+set(ros_rosimple_RUN_DEPENDS "std_msgs")
+set(ros_rosimple_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,16 @@
+/home/erle/spider_ws/install_isolated/_setup_util.py
+/home/erle/spider_ws/install_isolated/env.sh
+/home/erle/spider_ws/install_isolated/setup.bash
+/home/erle/spider_ws/install_isolated/setup.sh
+/home/erle/spider_ws/install_isolated/setup.zsh
+/home/erle/spider_ws/install_isolated/.rosinstall
+/home/erle/spider_ws/install_isolated/lib/pkgconfig/ps3joy.pc
+/home/erle/spider_ws/install_isolated/share/ps3joy/cmake/ps3joyConfig.cmake
+/home/erle/spider_ws/install_isolated/share/ps3joy/cmake/ps3joyConfig-version.cmake
+/home/erle/spider_ws/install_isolated/share/ps3joy/package.xml
+/home/erle/spider_ws/install_isolated/lib/ps3joy/sixpair
+/home/erle/spider_ws/install_isolated/share/ps3joy/launch/ps3.launch
+/home/erle/spider_ws/install_isolated/share/ps3joy/diagnostics.yaml
+/home/erle/spider_ws/install_isolated/lib/ps3joy/ps3joy.py
+/home/erle/spider_ws/install_isolated/lib/ps3joy/ps3joy_node.py
+/home/erle/spider_ws/install_isolated/lib/ps3joy/ps3joysim.py

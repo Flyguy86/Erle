@@ -1,0 +1,14 @@
+/home/erle/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/rclc
+/home/erle/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/rclc
+/home/erle/ros2_ws/install/share/rclc/environment/ament_prefix_path.sh
+/home/erle/ros2_ws/install/share/rclc/environment/path.sh
+/home/erle/ros2_ws/install/share/rclc/local_setup.bash
+/home/erle/ros2_ws/install/share/rclc/local_setup.sh
+/home/erle/ros2_ws/install/share/rclc/local_setup.zsh
+/home/erle/ros2_ws/install/share/ament_index/resource_index/packages/rclc
+/home/erle/ros2_ws/install/share/rclc/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/erle/ros2_ws/install/share/rclc/cmake/rclcConfig.cmake
+/home/erle/ros2_ws/install/share/rclc/cmake/rclcConfig-version.cmake
+/home/erle/ros2_ws/install/share/rclc/package.xml
+/home/erle/ros2_ws/install/include/rclc/rclc.h
+/home/erle/ros2_ws/install/include/rclc/types.h

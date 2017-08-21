@@ -1,0 +1,13 @@
+/home/erle/spider_ws/install_isolated/_setup_util.py
+/home/erle/spider_ws/install_isolated/env.sh
+/home/erle/spider_ws/install_isolated/setup.bash
+/home/erle/spider_ws/install_isolated/setup.sh
+/home/erle/spider_ws/install_isolated/setup.zsh
+/home/erle/spider_ws/install_isolated/.rosinstall
+/home/erle/spider_ws/install_isolated/lib/pkgconfig/xacro.pc
+/home/erle/spider_ws/install_isolated/share/xacro/cmake/xacro-extras.cmake
+/home/erle/spider_ws/install_isolated/share/xacro/cmake/xacroConfig.cmake
+/home/erle/spider_ws/install_isolated/share/xacro/cmake/xacroConfig-version.cmake
+/home/erle/spider_ws/install_isolated/share/xacro/package.xml
+/home/erle/spider_ws/install_isolated/lib/xacro/xacro
+/home/erle/spider_ws/install_isolated/share/xacro/xacro.py

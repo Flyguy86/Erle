@@ -1,0 +1,4 @@
+[0m[ INFO] [1469609932.512303916]: Loading nodelet /camera/debayer of type image_proc/debayer to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1469609932.514618129]: /camera/image_color -> /camera/rgb/image_color[0m
+[0m[ INFO] [1469609932.515751564]: /camera/image_mono -> /camera/rgb/image_mono[0m
+[0m[ INFO] [1469609932.517335311]: /camera/image_raw -> /camera/rgb/image_raw[0m

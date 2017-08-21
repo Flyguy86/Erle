@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __std_msgs__msg__ColorRGBA__idl__
+#define __std_msgs__msg__ColorRGBA__idl__
+
+
+module std_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct ColorRGBA_
+{
+
+  float r_;
+  float g_;
+  float b_;
+  float a_;
+
+};  // struct ColorRGBA_
+
+#pragma keylist ColorRGBA_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module std_msgs
+
+#endif  // __std_msgs__msg__ColorRGBA__idl__

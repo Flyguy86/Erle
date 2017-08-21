@@ -1,0 +1,23 @@
+# CMake generated Testfile for 
+# Source directory: /home/erle/ros2_ws/src/ros2/rttest
+# Build directory: /home/erle/ros2_ws/build/rttest
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(gtest_rttest_api "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/gtest_rttest_api.gtest.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_cmake_gtest/gtest_rttest_api.txt" "--command" "/home/erle/ros2_ws/build/rttest//gtest_rttest_api" "--gtest_output=xml:/home/erle/ros2_ws/build/rttest/test_results/rttest/gtest_rttest_api.gtest.xml")
+set_tests_properties(gtest_rttest_api PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/erle/ros2_ws/build/rttest//gtest_rttest_api" TIMEOUT "15")
+add_test(copyright "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/copyright.xunit.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_copyright/copyright.txt" "--command" "/home/erle/ros2_ws/install/bin/ament_copyright" "--xunit-file" "/home/erle/ros2_ws/build/rttest/test_results/rttest/copyright.xunit.xml")
+set_tests_properties(copyright PROPERTIES  LABELS "copyright;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/erle/ros2_ws/src/ros2/rttest")
+add_test(cppcheck "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/cppcheck.xunit.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_cppcheck/cppcheck.txt" "--command" "/home/erle/ros2_ws/install/bin/ament_cppcheck" "--xunit-file" "/home/erle/ros2_ws/build/rttest/test_results/rttest/cppcheck.xunit.xml")
+set_tests_properties(cppcheck PROPERTIES  LABELS "cppcheck;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/erle/ros2_ws/src/ros2/rttest")
+add_test(lint_cmake "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/lint_cmake.xunit.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_lint_cmake/lint_cmake.txt" "--command" "/home/erle/ros2_ws/install/bin/ament_lint_cmake" "--xunit-file" "/home/erle/ros2_ws/build/rttest/test_results/rttest/lint_cmake.xunit.xml")
+set_tests_properties(lint_cmake PROPERTIES  LABELS "lint_cmake;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/erle/ros2_ws/src/ros2/rttest")
+add_test(pep257 "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/pep257.xunit.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_pep257/pep257.txt" "--command" "/home/erle/ros2_ws/install/bin/ament_pep257" "--xunit-file" "/home/erle/ros2_ws/build/rttest/test_results/rttest/pep257.xunit.xml")
+set_tests_properties(pep257 PROPERTIES  LABELS "pep257;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/erle/ros2_ws/src/ros2/rttest")
+add_test(pep8 "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/pep8.xunit.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_pep8/pep8.txt" "--command" "/home/erle/ros2_ws/install/bin/ament_pep8" "--xunit-file" "/home/erle/ros2_ws/build/rttest/test_results/rttest/pep8.xunit.xml")
+set_tests_properties(pep8 PROPERTIES  LABELS "pep8;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/erle/ros2_ws/src/ros2/rttest")
+add_test(pyflakes "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/pyflakes.xunit.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_pyflakes/pyflakes.txt" "--command" "/home/erle/ros2_ws/install/bin/ament_pyflakes" "--xunit-file" "/home/erle/ros2_ws/build/rttest/test_results/rttest/pyflakes.xunit.xml")
+set_tests_properties(pyflakes PROPERTIES  LABELS "pyflakes;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/erle/ros2_ws/src/ros2/rttest")
+add_test(uncrustify "/usr/bin/python3" "-u" "/home/erle/ros2_ws/install/share/ament_cmake_test/cmake/run_test.py" "/home/erle/ros2_ws/build/rttest/test_results/rttest/uncrustify.xunit.xml" "--output-file" "/home/erle/ros2_ws/build/rttest/ament_uncrustify/uncrustify.txt" "--command" "/home/erle/ros2_ws/install/bin/ament_uncrustify" "--xunit-file" "/home/erle/ros2_ws/build/rttest/test_results/rttest/uncrustify.xunit.xml")
+set_tests_properties(uncrustify PROPERTIES  LABELS "uncrustify;linter" TIMEOUT "60" WORKING_DIRECTORY "/home/erle/ros2_ws/src/ros2/rttest")
+subdirs(gtest)

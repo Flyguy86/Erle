@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/rosidl_generator_c/CMakeFiles/uninstall.dir

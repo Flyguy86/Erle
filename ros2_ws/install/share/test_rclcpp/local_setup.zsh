@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/test_rclcpp/ament_cmake_environment_hooks/local_setup.zsh

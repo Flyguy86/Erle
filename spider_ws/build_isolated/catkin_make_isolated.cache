@@ -1,0 +1,2 @@
+crab_body_kinematics:crab_gait:crab_imu:crab_leg_kinematics:crab_maestro_controller:crab_msgs:crab_teleop_joy:joystick_drivers/joy:joystick_drivers/joystick_drivers:joystick_drivers/ps3joy:kdl_parser:orocos_kdl:ros_rosimple:roslint:urdf:urdf_parser_plugin:xacro
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/erle/spider_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/erle/spider_ws/install_isolated

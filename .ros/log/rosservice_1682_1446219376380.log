@@ -1,0 +1,15 @@
+[rospy.client][INFO] 2015-10-30 15:36:16,557: init_node, name[/rosservice_1682_1446219376380], pid[1682]
+[xmlrpc][INFO] 2015-10-30 15:36:16,560: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2015-10-30 15:36:16,563: Started XML-RPC server [http://erle-brain-2:33694/]
+[rospy.init][INFO] 2015-10-30 15:36:16,565: ROS Slave URI: [http://erle-brain-2:33694/]
+[rospy.impl.masterslave][INFO] 2015-10-30 15:36:16,566: _ready: http://erle-brain-2:33694/
+[rospy.registration][INFO] 2015-10-30 15:36:16,569: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2015-10-30 15:36:16,570: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2015-10-30 15:36:16,667: registered with master
+[rospy.rosout][INFO] 2015-10-30 15:36:16,669: initializing /rosout core topic
+[rospy.rosout][INFO] 2015-10-30 15:36:16,686: connected to core topic /rosout
+[rospy.simtime][INFO] 2015-10-30 15:36:16,701: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2015-10-30 15:36:16,951: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2015-10-30 15:36:17,004: signal_shutdown [atexit]
+[rospy.internal][INFO] 2015-10-30 15:36:17,032: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2015-10-30 15:36:17,034: atexit

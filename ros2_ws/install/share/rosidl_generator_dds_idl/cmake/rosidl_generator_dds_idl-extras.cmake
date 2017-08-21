@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/rosidl_generator_dds_idl/ament_cmake_core/rosidl_generator_dds_idl-extras.cmake

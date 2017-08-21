@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/stereo_msgs/rosidl_typesupport_opensplice_cpp/stereo_msgs/msg/dds_opensplice/DisparityImage_SplDcps.cpp

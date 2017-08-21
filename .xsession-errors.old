@@ -1,0 +1,6 @@
+Xsession: X session started for erle at Tue 27 Oct 19:01:24 UTC 2015
+localuser:erle being added to access control list
+** Message: main.vala:99: Session is LXDE
+** Message: main.vala:100: DE is LXDE
+** Message: main.vala:131: log directory: /home/erle/.cache/lxsession/LXDE
+** Message: main.vala:132: log path: /home/erle/.cache/lxsession/LXDE/run.log

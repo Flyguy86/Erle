@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/gmock_vendor/share/gmock_vendor/local_setup.bash

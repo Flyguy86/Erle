@@ -1,0 +1,8 @@
+prefix=/home/erle/spider_ws/install_isolated
+
+Name: ros_rosimple
+Description: Description of ros_rosimple
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/erle/spider_ws/install_isolated/lib 
+Requires: std_msgs

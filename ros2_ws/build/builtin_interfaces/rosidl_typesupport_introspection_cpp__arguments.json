@@ -1,0 +1,17 @@
+{
+  "package_name": "builtin_interfaces",
+  "output_dir": "/home/erle/ros2_ws/build/builtin_interfaces/rosidl_typesupport_introspection_cpp/builtin_interfaces",
+  "template_dir": "/home/erle/ros2_ws/install/share/rosidl_typesupport_introspection_cpp/resource",
+  "ros_interface_files": [
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/builtin_interfaces/msg/Duration.msg",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/builtin_interfaces/msg/Time.msg"
+  ],
+  "target_dependencies": [
+    "/home/erle/ros2_ws/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/home/erle/ros2_ws/install/lib/python3.4/site-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/home/erle/ros2_ws/install/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.template",
+    "/home/erle/ros2_ws/install/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.template",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/builtin_interfaces/msg/Duration.msg",
+    "/home/erle/ros2_ws/src/ros2/common_interfaces/builtin_interfaces/msg/Time.msg"
+  ]
+}

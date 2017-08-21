@@ -1,0 +1,8 @@
+prefix=/home/erle/spider_ws/install_isolated
+
+Name: crab_imu
+Description: Description of crab_imu
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/erle/spider_ws/install_isolated/lib 
+Requires: 

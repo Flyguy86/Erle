@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/sensor_msgs/srv/SetCameraInfo_Response.msg

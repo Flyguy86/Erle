@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_lint_auto/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/rosidl_default_generators/ament_cmake_core/rosidl_default_generatorsConfig-version.cmake

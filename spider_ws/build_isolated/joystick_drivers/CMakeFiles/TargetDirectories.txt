@@ -1,0 +1,7 @@
+/home/erle/spider_ws/build_isolated/joystick_drivers/CMakeFiles/_catkin_empty_exported_target.dir
+/home/erle/spider_ws/build_isolated/joystick_drivers/CMakeFiles/clean_test_results.dir
+/home/erle/spider_ws/build_isolated/joystick_drivers/CMakeFiles/clean_test_results_joystick_drivers.dir
+/home/erle/spider_ws/build_isolated/joystick_drivers/CMakeFiles/download_extra_data.dir
+/home/erle/spider_ws/build_isolated/joystick_drivers/CMakeFiles/doxygen.dir
+/home/erle/spider_ws/build_isolated/joystick_drivers/CMakeFiles/run_tests.dir
+/home/erle/spider_ws/build_isolated/joystick_drivers/CMakeFiles/tests.dir

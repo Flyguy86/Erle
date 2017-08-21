@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/src/ros2/examples/example_interfaces/msg/LargeFixed.msg

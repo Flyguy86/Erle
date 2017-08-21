@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_cmake_include_directories/ament_cmake_core/ament_cmake_include_directoriesConfig.cmake

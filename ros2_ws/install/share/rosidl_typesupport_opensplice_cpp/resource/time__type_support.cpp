@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/src/ros2/rmw_opensplice/rosidl_typesupport_opensplice_cpp/resource/time__type_support.cpp

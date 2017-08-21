@@ -1,0 +1,36 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __std_msgs__msg__Int32MultiArray__idl__
+#define __std_msgs__msg__Int32MultiArray__idl__
+
+#include "std_msgs/msg/dds_opensplice/MultiArrayLayout_.idl"
+
+module std_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Int32MultiArray_
+{
+
+  std_msgs::msg::dds_::MultiArrayLayout_ layout_;
+  sequence<long> data_;
+
+};  // struct Int32MultiArray_
+
+#pragma keylist Int32MultiArray_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module std_msgs
+
+#endif  // __std_msgs__msg__Int32MultiArray__idl__

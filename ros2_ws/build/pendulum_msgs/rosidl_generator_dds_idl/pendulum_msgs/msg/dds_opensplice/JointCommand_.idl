@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __pendulum_msgs__msg__JointCommand__idl__
+#define __pendulum_msgs__msg__JointCommand__idl__
+
+
+module pendulum_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct JointCommand_
+{
+
+  double position_;
+
+};  // struct JointCommand_
+
+#pragma keylist JointCommand_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module pendulum_msgs
+
+#endif  // __pendulum_msgs__msg__JointCommand__idl__

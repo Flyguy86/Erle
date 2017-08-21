@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/erle/spider_ws/devel_isolated/roslint/setup.sh

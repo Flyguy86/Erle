@@ -1,0 +1,40 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __nav_msgs__msg__MapMetaData__idl__
+#define __nav_msgs__msg__MapMetaData__idl__
+
+#include <dds_dcps.idl>
+#include "geometry_msgs/msg/dds_opensplice/Pose_.idl"
+
+module nav_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct MapMetaData_
+{
+
+  DDS::Time_t map_load_time_;
+  float resolution_;
+  unsigned long width_;
+  unsigned long height_;
+  geometry_msgs::msg::dds_::Pose_ origin_;
+
+};  // struct MapMetaData_
+
+#pragma keylist MapMetaData_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module nav_msgs
+
+#endif  // __nav_msgs__msg__MapMetaData__idl__

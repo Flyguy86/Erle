@@ -1,0 +1,41 @@
+{
+  "package_name": "rosidl_generator_cpp",
+  "output_dir": "/home/erle/ros2_ws/build/rosidl_generator_cpp/rosidl_generator_c/rosidl_generator_cpp",
+  "template_dir": "/home/erle/ros2_ws/install/share/rosidl_generator_c/resource",
+  "ros_interface_files": [
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/BoundedArrayBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/BoundedArrayStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/BoundedArrayUnbounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/Empty.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitiveStaticArrays.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitivesBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitivesStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitivesUnbounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/StaticArrayBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/StaticArrayStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/StaticArrayUnbounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/UnboundedArrayBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/UnboundedArrayStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/UnboundedArrayUnbounded.msg"
+  ],
+  "target_dependencies": [
+    "/home/erle/ros2_ws/install/lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/erle/ros2_ws/install/lib/python3.4/site-packages/rosidl_generator_c/__init__.py",
+    "/home/erle/ros2_ws/install/share/rosidl_generator_c/resource/msg.h.template",
+    "/home/erle/ros2_ws/install/share/rosidl_generator_c/resource/msg__struct.h.template",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/BoundedArrayBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/BoundedArrayStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/BoundedArrayUnbounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/Empty.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitiveStaticArrays.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitivesBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitivesStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/PrimitivesUnbounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/StaticArrayBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/StaticArrayStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/StaticArrayUnbounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/UnboundedArrayBounded.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/UnboundedArrayStatic.msg",
+    "/home/erle/ros2_ws/src/ros2/rosidl/rosidl_generator_cpp/msg/UnboundedArrayUnbounded.msg"
+  ]
+}

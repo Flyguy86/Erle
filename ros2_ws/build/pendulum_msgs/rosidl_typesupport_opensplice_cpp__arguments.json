@@ -1,0 +1,26 @@
+{
+  "package_name": "pendulum_msgs",
+  "output_dir": "/home/erle/ros2_ws/build/pendulum_msgs/rosidl_typesupport_opensplice_cpp/pendulum_msgs",
+  "template_dir": "/home/erle/ros2_ws/install/share/rosidl_typesupport_opensplice_cpp/resource",
+  "ros_interface_files": [
+    "/home/erle/ros2_ws/src/ros2/demos/pendulum_msgs/msg/JointState.msg",
+    "/home/erle/ros2_ws/src/ros2/demos/pendulum_msgs/msg/JointCommand.msg",
+    "/home/erle/ros2_ws/src/ros2/demos/pendulum_msgs/msg/RttestResults.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/erle/ros2_ws/install/share/builtin_interfaces/msg/Duration.msg",
+    "builtin_interfaces:/home/erle/ros2_ws/install/share/builtin_interfaces/msg/Time.msg"
+  ],
+  "target_dependencies": [
+    "/home/erle/ros2_ws/install/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp",
+    "/home/erle/ros2_ws/install/lib/python3.4/site-packages/rosidl_typesupport_opensplice_cpp/__init__.py",
+    "/home/erle/ros2_ws/install/share/rosidl_typesupport_opensplice_cpp/resource/msg__type_support.hpp.template",
+    "/home/erle/ros2_ws/install/share/rosidl_typesupport_opensplice_cpp/resource/msg__type_support.cpp.template",
+    "/home/erle/ros2_ws/install/share/rosidl_typesupport_opensplice_cpp/resource/srv__type_support.cpp.template"
+  ],
+  "additional_files": [
+    "/home/erle/ros2_ws/build/pendulum_msgs/rosidl_generator_dds_idl/pendulum_msgs/msg/dds_opensplice/JointState_.idl",
+    "/home/erle/ros2_ws/build/pendulum_msgs/rosidl_generator_dds_idl/pendulum_msgs/msg/dds_opensplice/JointCommand_.idl",
+    "/home/erle/ros2_ws/build/pendulum_msgs/rosidl_generator_dds_idl/pendulum_msgs/msg/dds_opensplice/RttestResults_.idl"
+  ]
+}

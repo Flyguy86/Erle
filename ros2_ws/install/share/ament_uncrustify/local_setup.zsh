@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_uncrustify/share/ament_uncrustify/local_setup.zsh

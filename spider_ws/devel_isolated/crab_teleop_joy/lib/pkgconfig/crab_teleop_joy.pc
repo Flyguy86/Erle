@@ -1,0 +1,8 @@
+prefix=/home/erle/spider_ws/devel_isolated/crab_teleop_joy
+
+Name: crab_teleop_joy
+Description: Description of crab_teleop_joy
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/erle/spider_ws/devel_isolated/crab_teleop_joy/lib 
+Requires: 

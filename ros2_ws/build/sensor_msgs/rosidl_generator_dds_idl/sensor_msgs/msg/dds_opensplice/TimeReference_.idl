@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__TimeReference__idl__
+#define __sensor_msgs__msg__TimeReference__idl__
+
+#include <dds_dcps.idl>
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct TimeReference_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  DDS::Time_t time_ref_;
+  string source_;
+
+};  // struct TimeReference_
+
+#pragma keylist TimeReference_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__TimeReference__idl__

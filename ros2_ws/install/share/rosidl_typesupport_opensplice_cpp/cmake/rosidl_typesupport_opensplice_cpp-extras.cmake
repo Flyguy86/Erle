@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/rosidl_typesupport_opensplice_cpp/ament_cmake_core/rosidl_typesupport_opensplice_cpp-extras.cmake

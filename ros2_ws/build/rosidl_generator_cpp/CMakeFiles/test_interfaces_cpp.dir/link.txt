@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -Wall -Wextra    CMakeFiles/test_interfaces_cpp.dir/test/test_interfaces.cpp.o  -o test_interfaces_cpp -rdynamic 

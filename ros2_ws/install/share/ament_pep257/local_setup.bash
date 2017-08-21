@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_pep257/share/ament_pep257/local_setup.bash

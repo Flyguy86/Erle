@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__Transform__idl__
+#define __geometry_msgs__msg__Transform__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Quaternion_.idl"
+#include "geometry_msgs/msg/dds_opensplice/Vector3_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Transform_
+{
+
+  geometry_msgs::msg::dds_::Vector3_ translation_;
+  geometry_msgs::msg::dds_::Quaternion_ rotation_;
+
+};  // struct Transform_
+
+#pragma keylist Transform_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__Transform__idl__

@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __rcl_interfaces__srv__SetParameters_Response__idl__
+#define __rcl_interfaces__srv__SetParameters_Response__idl__
+
+#include "rcl_interfaces/msg/dds_opensplice/SetParametersResult_.idl"
+
+module rcl_interfaces
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct SetParameters_Response_
+{
+
+  sequence<rcl_interfaces::msg::dds_::SetParametersResult_> results_;
+
+};  // struct SetParameters_Response_
+
+#pragma keylist SetParameters_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module rcl_interfaces
+
+#endif  // __rcl_interfaces__srv__SetParameters_Response__idl__

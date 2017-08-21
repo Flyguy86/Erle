@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -Wall -Wextra    CMakeFiles/test_function_traits.dir/test/test_function_traits.cpp.o  -o test_function_traits -rdynamic gtest/libgtest.a gtest/libgtest_main.a -lpthread 

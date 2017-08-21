@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__WrenchStamped__idl__
+#define __geometry_msgs__msg__WrenchStamped__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Wrench_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct WrenchStamped_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  geometry_msgs::msg::dds_::Wrench_ wrench_;
+
+};  // struct WrenchStamped_
+
+#pragma keylist WrenchStamped_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__WrenchStamped__idl__

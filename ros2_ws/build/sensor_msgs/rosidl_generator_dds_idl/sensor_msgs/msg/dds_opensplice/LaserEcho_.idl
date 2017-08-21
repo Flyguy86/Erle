@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__LaserEcho__idl__
+#define __sensor_msgs__msg__LaserEcho__idl__
+
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct LaserEcho_
+{
+
+  sequence<float> echoes_;
+
+};  // struct LaserEcho_
+
+#pragma keylist LaserEcho_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__LaserEcho__idl__

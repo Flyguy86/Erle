@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -Wall -Wextra    CMakeFiles/test_mapped_ring_buffer.dir/test/test_mapped_ring_buffer.cpp.o  -o test_mapped_ring_buffer -rdynamic gtest/libgtest.a gtest/libgtest_main.a -lpthread 

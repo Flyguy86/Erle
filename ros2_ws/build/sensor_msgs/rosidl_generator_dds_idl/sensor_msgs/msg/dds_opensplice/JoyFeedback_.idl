@@ -1,0 +1,42 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__JoyFeedback__idl__
+#define __sensor_msgs__msg__JoyFeedback__idl__
+
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+  const octet JoyFeedback__TYPE_LED =
+    0;
+  const octet JoyFeedback__TYPE_RUMBLE =
+    1;
+  const octet JoyFeedback__TYPE_BUZZER =
+    2;
+
+
+
+struct JoyFeedback_
+{
+
+  octet type_;
+  octet id_;
+  float intensity_;
+
+};  // struct JoyFeedback_
+
+#pragma keylist JoyFeedback_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__JoyFeedback__idl__

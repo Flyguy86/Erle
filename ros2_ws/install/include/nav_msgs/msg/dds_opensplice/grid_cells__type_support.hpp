@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/nav_msgs/rosidl_typesupport_opensplice_cpp/nav_msgs/msg/dds_opensplice/grid_cells__type_support.hpp

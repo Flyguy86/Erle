@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__JoyFeedbackArray__idl__
+#define __sensor_msgs__msg__JoyFeedbackArray__idl__
+
+#include "sensor_msgs/msg/dds_opensplice/JoyFeedback_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct JoyFeedbackArray_
+{
+
+  sequence<sensor_msgs::msg::dds_::JoyFeedback_> array_;
+
+};  // struct JoyFeedbackArray_
+
+#pragma keylist JoyFeedbackArray_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__JoyFeedbackArray__idl__

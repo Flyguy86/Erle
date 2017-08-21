@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __rcl_interfaces__msg__SetParametersResult__idl__
+#define __rcl_interfaces__msg__SetParametersResult__idl__
+
+
+module rcl_interfaces
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct SetParametersResult_
+{
+
+  boolean successful_;
+  string reason_;
+
+};  // struct SetParametersResult_
+
+#pragma keylist SetParametersResult_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module rcl_interfaces
+
+#endif  // __rcl_interfaces__msg__SetParametersResult__idl__

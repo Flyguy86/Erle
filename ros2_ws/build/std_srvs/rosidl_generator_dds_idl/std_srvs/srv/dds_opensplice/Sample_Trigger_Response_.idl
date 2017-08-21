@@ -1,0 +1,39 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __std_srvs__srv__Sample_Trigger_Response__idl__
+#define __std_srvs__srv__Sample_Trigger_Response__idl__
+
+
+#include "std_srvs/srv/dds_opensplice/Trigger_Response_.idl"
+
+module std_srvs
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct Sample_Trigger_Response_
+{
+
+  unsigned long long client_guid_0_;
+  unsigned long long client_guid_1_;
+  long long sequence_number_;
+  std_srvs::srv::dds_::Trigger_Response_ response_;
+
+};  // struct Sample_Trigger_Response_
+
+#pragma keylist Sample_Trigger_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module std_srvs
+
+#endif  // __std_srvs__srv__Sample_Trigger_Response__idl__

@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/src/ament/ament_cmake/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake

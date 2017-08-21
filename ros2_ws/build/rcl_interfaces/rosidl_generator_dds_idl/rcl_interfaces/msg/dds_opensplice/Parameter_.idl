@@ -1,0 +1,36 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __rcl_interfaces__msg__Parameter__idl__
+#define __rcl_interfaces__msg__Parameter__idl__
+
+#include "rcl_interfaces/msg/dds_opensplice/ParameterValue_.idl"
+
+module rcl_interfaces
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Parameter_
+{
+
+  string name_;
+  rcl_interfaces::msg::dds_::ParameterValue_ value_;
+
+};  // struct Parameter_
+
+#pragma keylist Parameter_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module rcl_interfaces
+
+#endif  // __rcl_interfaces__msg__Parameter__idl__

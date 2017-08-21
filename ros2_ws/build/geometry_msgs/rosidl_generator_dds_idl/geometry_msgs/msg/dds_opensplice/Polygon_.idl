@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__Polygon__idl__
+#define __geometry_msgs__msg__Polygon__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Point32_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Polygon_
+{
+
+  sequence<geometry_msgs::msg::dds_::Point32_> points_;
+
+};  // struct Polygon_
+
+#pragma keylist Polygon_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__Polygon__idl__

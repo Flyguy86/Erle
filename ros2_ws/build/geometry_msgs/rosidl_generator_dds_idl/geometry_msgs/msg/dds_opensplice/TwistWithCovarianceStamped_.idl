@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__TwistWithCovarianceStamped__idl__
+#define __geometry_msgs__msg__TwistWithCovarianceStamped__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/TwistWithCovariance_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct TwistWithCovarianceStamped_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  geometry_msgs::msg::dds_::TwistWithCovariance_ twist_;
+
+};  // struct TwistWithCovarianceStamped_
+
+#pragma keylist TwistWithCovarianceStamped_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__TwistWithCovarianceStamped__idl__

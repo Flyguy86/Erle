@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/src/ros2/rosidl/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake

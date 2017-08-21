@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/gtest_vendor/share/gtest_vendor/local_setup.zsh

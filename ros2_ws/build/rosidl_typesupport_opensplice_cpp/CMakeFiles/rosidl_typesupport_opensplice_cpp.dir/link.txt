@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11 -Wall -Wextra   -shared -Wl,-soname,librosidl_typesupport_opensplice_cpp.so -o librosidl_typesupport_opensplice_cpp.so CMakeFiles/rosidl_typesupport_opensplice_cpp.dir/src/identifier.cpp.o 

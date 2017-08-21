@@ -1,0 +1,15 @@
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/environment/opensplice.sh
+/home/erle/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/opensplice_cmake_module
+/home/erle/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/opensplice_cmake_module
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/environment/ament_prefix_path.sh
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/environment/path.sh
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/local_setup.bash
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/local_setup.sh
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/local_setup.zsh
+/home/erle/ros2_ws/install/share/ament_index/resource_index/packages/opensplice_cmake_module
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/cmake/opensplice_cmake_module-extras.cmake
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/cmake/opensplice_cmake_moduleConfig.cmake
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/cmake/opensplice_cmake_moduleConfig-version.cmake
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/package.xml
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/cmake/Modules/FindOpenSplice.cmake
+/home/erle/ros2_ws/install/share/opensplice_cmake_module/config/ros_ospl.xml

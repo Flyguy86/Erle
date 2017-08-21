@@ -1,0 +1,48 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__CameraInfo__idl__
+#define __sensor_msgs__msg__CameraInfo__idl__
+
+#include "sensor_msgs/msg/dds_opensplice/RegionOfInterest_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+typedef double sensor_msgs__CameraInfo__double_array_9[9];
+typedef double sensor_msgs__CameraInfo__double_array_12[12];
+
+struct CameraInfo_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  unsigned long height_;
+  unsigned long width_;
+  string distortion_model_;
+  sequence<double> d_;
+sensor_msgs__CameraInfo__double_array_9 k_;
+sensor_msgs__CameraInfo__double_array_9 r_;
+sensor_msgs__CameraInfo__double_array_12 p_;
+  unsigned long binning_x_;
+  unsigned long binning_y_;
+  sensor_msgs::msg::dds_::RegionOfInterest_ roi_;
+
+};  // struct CameraInfo_
+
+#pragma keylist CameraInfo_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__CameraInfo__idl__

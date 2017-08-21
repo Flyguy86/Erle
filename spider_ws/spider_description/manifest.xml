@@ -1,0 +1,11 @@
+<package>
+  <description brief="spider_description">spider_description</description>
+  <depend package="gazebo" />
+
+  <author email="tuuzdu@mail.ru"></author>
+  <author email="xabier@erlerobot.com">Xabier</author>
+
+  <maintainer email="xabier@erlerobot.com">Xabier</maintainer>
+
+  <license>BSD</license>
+</package>

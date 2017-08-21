@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__TransformStamped__idl__
+#define __geometry_msgs__msg__TransformStamped__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Transform_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct TransformStamped_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  string child_frame_id_;
+  geometry_msgs::msg::dds_::Transform_ transform_;
+
+};  // struct TransformStamped_
+
+#pragma keylist TransformStamped_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__TransformStamped__idl__

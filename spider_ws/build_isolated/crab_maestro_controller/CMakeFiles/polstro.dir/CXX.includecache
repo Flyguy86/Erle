@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterface.cpp
+assert.h
+-
+PolstroSerialInterface.h
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterface.h
+PolstroSerialInterfacePOSIX.h
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterfacePOSIX.h
+
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterface.h
+string
+-
+
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterfacePOSIX.cpp
+PolstroSerialInterfacePOSIX.h
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterfacePOSIX.h
+fcntl.h
+-
+stdio.h
+-
+unistd.h
+-
+termios.h
+-
+assert.h
+-
+errno.h
+-
+
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterfacePOSIX.h
+PolstroSerialInterface.h
+/home/erle/spider_ws/src/crab_maestro_controller/src/PolstroSerialInterface.h
+

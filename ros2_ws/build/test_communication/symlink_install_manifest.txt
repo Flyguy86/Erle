@@ -1,0 +1,11 @@
+/home/erle/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/test_communication
+/home/erle/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/test_communication
+/home/erle/ros2_ws/install/share/test_communication/environment/ament_prefix_path.sh
+/home/erle/ros2_ws/install/share/test_communication/environment/path.sh
+/home/erle/ros2_ws/install/share/test_communication/local_setup.bash
+/home/erle/ros2_ws/install/share/test_communication/local_setup.sh
+/home/erle/ros2_ws/install/share/test_communication/local_setup.zsh
+/home/erle/ros2_ws/install/share/ament_index/resource_index/packages/test_communication
+/home/erle/ros2_ws/install/share/test_communication/cmake/test_communicationConfig.cmake
+/home/erle/ros2_ws/install/share/test_communication/cmake/test_communicationConfig-version.cmake
+/home/erle/ros2_ws/install/share/test_communication/package.xml

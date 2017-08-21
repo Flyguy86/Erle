@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_pyflakes/share/ament_pyflakes/local_setup.bash

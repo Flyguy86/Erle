@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2016-02-01 11:40:58,010: init_node, name[/web_video_server], pid[4335]
+[xmlrpc][INFO] 2016-02-01 11:40:58,013: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-02-01 11:40:58,016: Started XML-RPC server [http://erle-brain-2:41713/]
+[rospy.init][INFO] 2016-02-01 11:40:58,017: ROS Slave URI: [http://erle-brain-2:41713/]
+[rospy.impl.masterslave][INFO] 2016-02-01 11:40:58,019: _ready: http://erle-brain-2:41713/
+[rospy.registration][INFO] 2016-02-01 11:40:58,023: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2016-02-01 11:40:58,024: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2016-02-01 11:40:58,025: registering subscriber topic [/camera/image/compressed] type [sensor_msgs/CompressedImage] with master
+[rospy.internal][INFO] 2016-02-01 11:40:58,045: topic[/camera/image/compressed] adding connection to [http://erle-brain-2:40404/], count 0
+[rospy.init][INFO] 2016-02-01 11:40:58,121: registered with master
+[rospy.rosout][INFO] 2016-02-01 11:40:58,801: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-02-01 11:40:58,814: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-02-01 11:40:58,828: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2016-02-01 11:40:59,071: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2016-02-01 11:51:06,579: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-02-01 11:51:06,619: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2016-02-01 11:51:06,623: topic[/camera/image/compressed] removing connection to http://erle-brain-2:40404/
+[rospy.impl.masterslave][INFO] 2016-02-01 11:51:06,627: signal-2
+[rospy.internal][WARNING] 2016-02-01 11:51:06,632: Unknown error initiating TCP/IP socket to erle-brain-2:42917 (http://erle-brain-2:40404/): Traceback (most recent call last):
+  File "/home/erle/ros_catkin_ws/install_isolated/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

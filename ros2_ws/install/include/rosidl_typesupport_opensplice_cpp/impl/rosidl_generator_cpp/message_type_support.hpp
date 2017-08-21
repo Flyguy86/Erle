@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/src/ros2/rmw_opensplice/rosidl_typesupport_opensplice_cpp/include/rosidl_typesupport_opensplice_cpp/impl/rosidl_generator_cpp/message_type_support.hpp

@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __geometry_msgs__msg__PointStamped__idl__
+#define __geometry_msgs__msg__PointStamped__idl__
+
+#include "geometry_msgs/msg/dds_opensplice/Point_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module geometry_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct PointStamped_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  geometry_msgs::msg::dds_::Point_ point_;
+
+};  // struct PointStamped_
+
+#pragma keylist PointStamped_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module geometry_msgs
+
+#endif  // __geometry_msgs__msg__PointStamped__idl__

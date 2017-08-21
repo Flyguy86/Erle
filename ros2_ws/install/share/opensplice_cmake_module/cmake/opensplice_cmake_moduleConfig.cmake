@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/opensplice_cmake_module/ament_cmake_core/opensplice_cmake_moduleConfig.cmake

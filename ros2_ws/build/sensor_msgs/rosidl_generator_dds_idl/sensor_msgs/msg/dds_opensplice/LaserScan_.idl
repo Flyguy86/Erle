@@ -1,0 +1,44 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__LaserScan__idl__
+#define __sensor_msgs__msg__LaserScan__idl__
+
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct LaserScan_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  float angle_min_;
+  float angle_max_;
+  float angle_increment_;
+  float time_increment_;
+  float scan_time_;
+  float range_min_;
+  float range_max_;
+  sequence<float> ranges_;
+  sequence<float> intensities_;
+
+};  // struct LaserScan_
+
+#pragma keylist LaserScan_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__LaserScan__idl__

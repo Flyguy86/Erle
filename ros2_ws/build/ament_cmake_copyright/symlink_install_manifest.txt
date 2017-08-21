@@ -1,0 +1,14 @@
+/home/erle/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_copyright
+/home/erle/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_copyright
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/environment/ament_prefix_path.sh
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/environment/path.sh
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/local_setup.bash
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/local_setup.sh
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/local_setup.zsh
+/home/erle/ros2_ws/install/share/ament_index/resource_index/packages/ament_cmake_copyright
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/cmake/ament_cmake_copyright-extras.cmake
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig.cmake
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig-version.cmake
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/package.xml
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/cmake/ament_cmake_copyright_lint_hook.cmake
+/home/erle/ros2_ws/install/share/ament_cmake_copyright/cmake/ament_copyright.cmake

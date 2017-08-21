@@ -1,0 +1,41 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __sensor_msgs__msg__Image__idl__
+#define __sensor_msgs__msg__Image__idl__
+
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module sensor_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct Image_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  unsigned long height_;
+  unsigned long width_;
+  string encoding_;
+  octet is_bigendian_;
+  unsigned long step_;
+  sequence<octet> data_;
+
+};  // struct Image_
+
+#pragma keylist Image_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module sensor_msgs
+
+#endif  // __sensor_msgs__msg__Image__idl__

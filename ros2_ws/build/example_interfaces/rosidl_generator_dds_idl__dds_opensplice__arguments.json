@@ -1,0 +1,26 @@
+{
+  "package_name": "example_interfaces",
+  "output_dir": "/home/erle/ros2_ws/build/example_interfaces/rosidl_generator_dds_idl/example_interfaces",
+  "template_dir": "/home/erle/ros2_ws/install/share/rosidl_generator_dds_idl/resource",
+  "ros_interface_files": [
+    "/home/erle/ros2_ws/src/ros2/examples/example_interfaces/msg/LargeFixed.msg",
+    "/home/erle/ros2_ws/src/ros2/examples/example_interfaces/srv/AddTwoInts.srv",
+    "/home/erle/ros2_ws/build/example_interfaces/srv/AddTwoInts_Request.msg",
+    "/home/erle/ros2_ws/build/example_interfaces/srv/AddTwoInts_Response.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/erle/ros2_ws/install/share/builtin_interfaces/msg/Duration.msg",
+    "builtin_interfaces:/home/erle/ros2_ws/install/share/builtin_interfaces/msg/Time.msg"
+  ],
+  "target_dependencies": [
+    "/home/erle/ros2_ws/install/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl",
+    "/home/erle/ros2_ws/install/lib/python3.4/site-packages/rosidl_generator_dds_idl/__init__.py",
+    "/home/erle/ros2_ws/install/share/rosidl_generator_dds_idl/resource/msg.idl.template",
+    "/home/erle/ros2_ws/src/ros2/examples/example_interfaces/msg/LargeFixed.msg",
+    "/home/erle/ros2_ws/src/ros2/examples/example_interfaces/srv/AddTwoInts.srv",
+    "/home/erle/ros2_ws/build/example_interfaces/srv/AddTwoInts_Request.msg",
+    "/home/erle/ros2_ws/build/example_interfaces/srv/AddTwoInts_Response.msg",
+    "/home/erle/ros2_ws/install/share/builtin_interfaces/msg/Duration.msg",
+    "/home/erle/ros2_ws/install/share/builtin_interfaces/msg/Time.msg"
+  ]
+}

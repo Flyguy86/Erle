@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __std_msgs__msg__UInt64__idl__
+#define __std_msgs__msg__UInt64__idl__
+
+
+module std_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct UInt64_
+{
+
+  unsigned long long data_;
+
+};  // struct UInt64_
+
+#pragma keylist UInt64_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module std_msgs
+
+#endif  // __std_msgs__msg__UInt64__idl__

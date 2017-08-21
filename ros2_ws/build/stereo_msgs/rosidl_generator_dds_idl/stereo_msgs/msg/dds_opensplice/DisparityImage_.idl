@@ -1,0 +1,44 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __stereo_msgs__msg__DisparityImage__idl__
+#define __stereo_msgs__msg__DisparityImage__idl__
+
+#include "sensor_msgs/msg/dds_opensplice/Image_.idl"
+#include "sensor_msgs/msg/dds_opensplice/RegionOfInterest_.idl"
+#include "std_msgs/msg/dds_opensplice/Header_.idl"
+
+module stereo_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct DisparityImage_
+{
+
+  std_msgs::msg::dds_::Header_ header_;
+  sensor_msgs::msg::dds_::Image_ image_;
+  float f_;
+  float t_;
+  sensor_msgs::msg::dds_::RegionOfInterest_ valid_window_;
+  float min_disparity_;
+  float max_disparity_;
+  float delta_d_;
+
+};  // struct DisparityImage_
+
+#pragma keylist DisparityImage_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module stereo_msgs
+
+#endif  // __stereo_msgs__msg__DisparityImage__idl__

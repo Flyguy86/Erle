@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_cpplint/ament_cmake_core/ament_cpplintConfig-version.cmake

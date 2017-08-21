@@ -1,0 +1,39 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __std_srvs__srv__Sample_Empty_Request__idl__
+#define __std_srvs__srv__Sample_Empty_Request__idl__
+
+
+#include "std_srvs/srv/dds_opensplice/Empty_Request_.idl"
+
+module std_srvs
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct Sample_Empty_Request_
+{
+
+  unsigned long long client_guid_0_;
+  unsigned long long client_guid_1_;
+  long long sequence_number_;
+  std_srvs::srv::dds_::Empty_Request_ request_;
+
+};  // struct Sample_Empty_Request_
+
+#pragma keylist Sample_Empty_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module std_srvs
+
+#endif  // __std_srvs__srv__Sample_Empty_Request__idl__

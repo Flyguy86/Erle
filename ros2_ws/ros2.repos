@@ -1,0 +1,105 @@
+repositories:
+  ament/ament_cmake:
+    type: git
+    url: https://github.com/ament/ament_cmake.git
+    version: release-alpha2
+  ament/ament_index:
+    type: git
+    url: https://github.com/ament/ament_index.git
+    version: release-alpha2
+  ament/ament_lint:
+    type: git
+    url: https://github.com/ament/ament_lint.git
+    version: release-alpha2
+  ament/ament_package:
+    type: git
+    url: https://github.com/ament/ament_package.git
+    version: release-alpha2
+  ament/ament_tools:
+    type: git
+    url: https://github.com/ament/ament_tools.git
+    version: release-alpha2
+  ament/gmock_vendor:
+    type: git
+    url: https://github.com/ament/gmock_vendor.git
+    version: release-alpha2
+  ament/gtest_vendor:
+    type: git
+    url: https://github.com/ament/gtest_vendor.git
+    version: release-alpha2
+  ament/osrf_pycommon:
+    type: git
+    url: https://github.com/osrf/osrf_pycommon.git
+    version: release-alpha2
+  ament/uncrustify:
+    type: git
+    url: https://github.com/ament/uncrustify.git
+    version: release-alpha2
+  ros2/common_interfaces:
+    type: git
+    url: https://github.com/ros2/common_interfaces.git
+    version: release-alpha2
+  ros2/demos:
+    type: git
+    url: https://github.com/ros2/demos.git
+    version: release-alpha2
+  ros2/examples:
+    type: git
+    url: https://github.com/ros2/examples.git
+    version: release-alpha2
+  ros2/launch:
+    type: git
+    url: https://github.com/ros2/launch.git
+    version: release-alpha2
+  ros2/rcl:
+    type: git
+    url: https://github.com/ros2/rcl.git
+    version: release-alpha2
+  ros2/rcl_interfaces:
+    type: git
+    url: https://github.com/ros2/rcl_interfaces.git
+    version: release-alpha2
+  ros2/rclc:
+    type: git
+    url: https://github.com/ros2/rclc.git
+    version: release-alpha2
+  ros2/rclcpp:
+    type: git
+    url: https://github.com/ros2/rclcpp.git
+    version: release-alpha2
+  ros2/rmw:
+    type: git
+    url: https://github.com/ros2/rmw.git
+    version: release-alpha2
+  ros2/rmw_connext:
+    type: git
+    url: https://github.com/ros2/rmw_connext.git
+    version: release-alpha2
+  ros2/rmw_implementation:
+    type: git
+    url: https://github.com/ros2/rmw_implementation.git
+    version: release-alpha2
+  ros2/rmw_opensplice:
+    type: git
+    url: https://github.com/ros2/rmw_opensplice.git
+    version: release-alpha2
+  ros2/ros1_bridge:
+    type: git
+    url: https://github.com/ros2/ros1_bridge.git
+    version: release-alpha2
+  ros2/rosidl:
+    type: git
+    url: https://github.com/ros2/rosidl.git
+    version: release-alpha2
+  ros2/rosidl_dds:
+    type: git
+    url: https://github.com/ros2/rosidl_dds.git
+    version: release-alpha2
+  ros2/rttest:
+    type: git
+    url: https://github.com/ros2/rttest.git
+    version: release-alpha2
+  ros2/system_tests:
+    type: git
+    url: https://github.com/ros2/system_tests.git
+    version: release-alpha2

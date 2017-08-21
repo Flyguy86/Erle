@@ -1,0 +1,45 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __pendulum_msgs__msg__RttestResults__idl__
+#define __pendulum_msgs__msg__RttestResults__idl__
+
+#include <dds_dcps.idl>
+#include "pendulum_msgs/msg/dds_opensplice/JointCommand_.idl"
+#include "pendulum_msgs/msg/dds_opensplice/JointState_.idl"
+
+module pendulum_msgs
+{
+
+module msg
+{
+
+module dds_
+{
+
+
+
+
+struct RttestResults_
+{
+
+  DDS::Time_t stamp_;
+  pendulum_msgs::msg::dds_::JointCommand_ command_;
+  pendulum_msgs::msg::dds_::JointState_ state_;
+  unsigned long long cur_latency_;
+  double mean_latency_;
+  unsigned long long min_latency_;
+  unsigned long long max_latency_;
+  unsigned long long minor_pagefaults_;
+  unsigned long long major_pagefaults_;
+
+};  // struct RttestResults_
+
+#pragma keylist RttestResults_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module pendulum_msgs
+
+#endif  // __pendulum_msgs__msg__RttestResults__idl__

@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_cmake_nose/ament_cmake_core/ament_cmake_noseConfig-version.cmake

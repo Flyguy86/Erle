@@ -1,0 +1,2 @@
+/home/erle/ros2_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/rosidl_typesupport_introspection_cpp.dir
+/home/erle/ros2_ws/build/rosidl_typesupport_introspection_cpp/CMakeFiles/uninstall.dir

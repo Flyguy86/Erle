@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/osrf_pycommon/share/osrf_pycommon/local_setup.sh

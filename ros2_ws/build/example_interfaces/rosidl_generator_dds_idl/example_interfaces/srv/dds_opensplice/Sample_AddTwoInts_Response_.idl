@@ -1,0 +1,39 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __example_interfaces__srv__Sample_AddTwoInts_Response__idl__
+#define __example_interfaces__srv__Sample_AddTwoInts_Response__idl__
+
+
+#include "example_interfaces/srv/dds_opensplice/AddTwoInts_Response_.idl"
+
+module example_interfaces
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct Sample_AddTwoInts_Response_
+{
+
+  unsigned long long client_guid_0_;
+  unsigned long long client_guid_1_;
+  long long sequence_number_;
+  example_interfaces::srv::dds_::AddTwoInts_Response_ response_;
+
+};  // struct Sample_AddTwoInts_Response_
+
+#pragma keylist Sample_AddTwoInts_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module example_interfaces
+
+#endif  // __example_interfaces__srv__Sample_AddTwoInts_Response__idl__

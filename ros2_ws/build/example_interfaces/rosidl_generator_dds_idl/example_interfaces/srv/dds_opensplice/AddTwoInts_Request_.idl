@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/msg.idl.template
+
+#ifndef __example_interfaces__srv__AddTwoInts_Request__idl__
+#define __example_interfaces__srv__AddTwoInts_Request__idl__
+
+
+module example_interfaces
+{
+
+module srv
+{
+
+module dds_
+{
+
+
+
+
+struct AddTwoInts_Request_
+{
+
+  long long a_;
+  long long b_;
+
+};  // struct AddTwoInts_Request_
+
+#pragma keylist AddTwoInts_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module example_interfaces
+
+#endif  // __example_interfaces__srv__AddTwoInts_Request__idl__

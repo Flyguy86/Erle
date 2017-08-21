@@ -1,0 +1,1 @@
+/home/erle/ros2_ws/build/ament_tools/share/ament_tools/local_setup.sh
